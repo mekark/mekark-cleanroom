@@ -277,3 +277,143 @@
 	width: 258px;
 	height: 389px;
 }
+
+@media (max-width: 1200px) {
+	.solutionsWrapper { height: auto !important; }
+	.solutions {
+		width: 100%;
+		height: auto;
+		transform: none !important;
+		display: flex;
+		flex-direction: column;
+		padding: 40px;
+		box-sizing: border-box;
+		gap: 40px;
+	}
+	.grid1Icon { display: none; }
+	.whereverYoureLocatedContainer {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		text-align: center;
+		margin-top: 24px;
+	}
+	.frameParent {
+		position: relative;
+		top: auto;
+		left: auto;
+		right: auto;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+	.frameGroup {
+		position: relative;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+	.eotCraneSolutionsAcrossSouWrapper {
+		position: relative;
+		width: 100%;
+		height: auto;
+	}
+	.eotCraneSolutions {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		font-size: 32px;
+		line-height: 40px;
+		white-space: normal;
+		justify-content: center;
+		text-align: center;
+		letter-spacing: normal;
+	}
+	.ourEotCranesServeDiverseIWrapper {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+	}
+	.ourEotCranes {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		white-space: normal;
+		justify-content: center;
+		text-align: center;
+	}
+	.frameContainer {
+		position: relative;
+		width: 100%;
+		height: auto;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 32px;
+	}
+	.rectangleParent, .rectangleGroup, .rectangleContainer, .frameDiv, .rectangleParent2, .rectangleParent3 {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		background: #f6f6f6;
+		border-radius: 16px;
+		padding: 16px;
+		box-sizing: border-box;
+	}
+	.frameChild, .frameChild2 {
+		position: relative;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 1;
+		object-fit: cover;
+	}
+	.container, .container4, .container7, .container13 {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+	.container2, .container3, .container9, .container14, .container15 {
+		position: relative;
+		top: auto;
+		left: auto;
+		right: auto;
+		width: 100%;
+	}
+	.steelMetal, .heavyDutyCranesFor, .automotiveManufacturing, .powerPlants {
+		width: 100%;
+		white-space: normal;
+		text-align: left;
+	}
+}
+
+@media (max-width: 768px) {
+	.solutions {
+		padding: 40px 16px;
+	}
+	.eotCraneSolutions {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.frameContainer {
+		gap: 16px;
+		grid-template-columns: 1fr;
+	}
+}

@@ -443,3 +443,127 @@
 	width: 566.2px;
 	flex-shrink: 0;
 }
+
+.buttonradixRDaaq, .buttonradixRLaaq, .buttonradixRTaaq, .buttonradixR15aaq, .buttonradixR1daaq, .buttonradixR1laaq, .buttonradixR1taaq, .buttonradixR25aaq, .buttonradixR25aaq2 {
+	cursor: pointer;
+}
+
+.faqAnswer {
+	font-size: 16px;
+	line-height: 24px;
+	color: #4c4c4c;
+	padding: 0 24px 20px 54px;
+	margin-top: -16px;
+	font-family: var(--font-manrope), sans-serif;
+	animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.iconOpen {
+	transform: rotate(180deg);
+	transition: transform 0.3s ease;
+}
+
+.iconClosed {
+	transform: rotate(0deg);
+	transition: transform 0.3s ease;
+}
+
+@media (max-width: 1200px) {
+	.faqWrapper { height: auto !important; }
+	.faq {
+		width: 100%;
+		height: auto;
+		transform: none !important;
+		padding: 40px;
+		box-sizing: border-box;
+	}
+	.frequentlyAskedQuestionsWrapper {
+		width: 100%;
+		height: auto;
+	}
+	.frequentlyAskedQuestions {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		font-size: 32px;
+		line-height: 40px;
+		white-space: normal;
+		text-align: center;
+		justify-content: center;
+		letter-spacing: normal;
+	}
+	.divspaceY3Parent {
+		width: 100%;
+		flex-direction: column;
+		gap: 16px;
+	}
+	.divrevealParent {
+		width: 100%;
+		gap: 16px;
+	}
+	.divreveal, .divreveal3, .divreveal6, .divreveal7, .divreveal9 {
+		width: 100%;
+		height: auto;
+		padding: 16px;
+		box-sizing: border-box;
+	}
+	.buttonradixRDaaq, .buttonradixRLaaq, .buttonradixRTaaq, .buttonradixR15aaq, .buttonradixR1daaq, .buttonradixR1laaq, .buttonradixR1taaq, .buttonradixR25aaq, .buttonradixR25aaq2 {
+		width: 100%;
+		height: auto;
+		padding: 0;
+		gap: 16px;
+		justify-content: space-between;
+	}
+	.spanflex, .spanflex2, .spanflex3, .spanflex4, .spanflex5, .spanflex6, .spanflex7, .spanflex8 {
+		width: 100%;
+		height: auto;
+		display: flex;
+		align-items: center;
+		gap: 12px;
+	}
+	.whatIsAn, .whatLoadCapacities, .howLongDoes, .areMekarksEot, .canAnExisting, .whatMaintenanceDoes, .howIsThe, .doesMekarkProvide, .whatIndustriesCommonly, .doesMekarkSupply {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		font-size: 16px;
+		line-height: 24px;
+		white-space: normal;
+		display: flex;
+		align-items: center;
+	}
+	.b, .b2, .b3, .b4, .b5, .b7, .b8, .b9, .b10 {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: auto;
+	}
+	.faqAnswer {
+		margin-top: 8px;
+		padding: 0 0 8px 36px;
+		font-size: 14px;
+		line-height: 22px;
+	}
+}
+
+@media (max-width: 768px) {
+	.faq {
+		padding: 40px 16px;
+	}
+	.frequentlyAskedQuestions {
+		font-size: 28px;
+		line-height: 36px;
+	}
+}

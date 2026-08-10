@@ -552,3 +552,225 @@
 	height: 563px;
 	flex-shrink: 0;
 }
+
+@media (max-width: 1200px) {
+	.ctaWrapper { height: auto !important; }
+	.cta {
+		width: 100%;
+		height: auto;
+		transform: none !important;
+		display: flex;
+		flex-direction: column;
+		padding: 40px;
+		box-sizing: border-box;
+		gap: 60px;
+	}
+	.image12Parent { display: none; }
+	.section {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+		border-radius: 24px;
+		display: flex;
+		flex-direction: column;
+		padding: 40px;
+		box-sizing: border-box;
+		gap: 24px;
+		align-items: center;
+		text-align: center;
+	}
+	.ourEngineeringTeamCanAssesParent {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+	.notSureWhichContainer {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.ourEngineeringTeam {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+	}
+	.sectionChild, .sectionItem, .sectionInner, .eotCta1 { display: none; }
+	.cta2 {
+		position: relative;
+		top: auto;
+		bottom: auto;
+		left: auto;
+		width: auto;
+		height: auto;
+		font-size: 16px;
+		padding: 12px 24px;
+	}
+	
+	.frameParent {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+	.frameParent5 {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+	.whyEotCranesFromMekarkAreWrapper {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+	}
+	.whyEotCranes {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		font-size: 32px;
+		line-height: 40px;
+		white-space: normal;
+		justify-content: flex-start;
+		text-align: left;
+	}
+	.mekarkIsA {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		font-size: 16px;
+		line-height: 24px;
+		height: auto;
+		justify-content: flex-start;
+		text-align: left;
+	}
+	.component22Parent {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 24px;
+	}
+	.component22, .component26, .component23, .component27, .component25, .component29 {
+		position: relative;
+		top: auto;
+		left: auto;
+		right: auto;
+		bottom: auto;
+		width: 100%;
+		height: auto;
+		border-radius: 16px;
+		padding: 24px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+	.frameGroup, .frameContainer, .frameParent4 {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		margin-top: 0;
+	}
+	.divsvcIcon {
+		position: relative;
+		top: auto;
+		left: auto;
+		order: -1;
+	}
+	.turnkeyWarehouseConstructionWrapper, .higherLoadEfficiencyWrapper, .precisionFabricationWrapper, .maintenanceAndAfterSalesSuWrapper, .safetyCompliantWrapper, .longLastingCranesWrapper {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+	}
+	.turnkeyWarehouseConstruction, .higherLoadEfficiency, .precisionFabrication, .maintenanceAndAfterSales, .safetyCompliant, .longLastingCranes {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		white-space: normal;
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.singlePointResponsibilityFrWrapper, .theOptimisedGirderDesignEnWrapper, .cncFabricatedPrecisionWeldWrapper, .weProvideMaintenanceAndAmcWrapper, .mekarksEotCranesAreEngineWrapper {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+	}
+	.singlePointResponsibilityFr, .theOptimisedGirder, .weProvideMaintenance, .mekarksEotCranes {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		line-height: 22px;
+		font-size: 14px;
+		white-space: normal;
+	}
+	.overlayborder {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+
+@media (max-width: 768px) {
+	.cta {
+		padding: 40px 16px;
+		gap: 40px;
+	}
+	.section {
+		padding: 32px 16px;
+	}
+	.notSureWhichContainer {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.whyEotCranes {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.component22Parent {
+		grid-template-columns: 1fr;
+	}
+	.component22, .component26, .component23, .component27, .component25, .component29 {
+		padding: 16px;
+	}
+}

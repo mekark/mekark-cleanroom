@@ -363,3 +363,136 @@
 	color: #8b91a0;
 	line-height: 23.76px;
 }
+
+@media (max-width: 1200px) {
+	.completeEotCraneSolutions {
+		flex-direction: column;
+		gap: 40px;
+	}
+	.leftStickyOuter {
+		width: 100%;
+		padding-top: 40px;
+	}
+	.leftSticky {
+		position: static;
+	}
+	.rightScrollable {
+		width: 100%;
+	}
+	.frameParentScale {
+		width: 100%;
+		height: auto;
+	}
+	.frameParent {
+		width: 100%;
+		height: auto;
+		transform: none;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 24px;
+	}
+	.frameGroup {
+		display: none;
+	}
+	.frameContainer, 
+	.rectangleParent, 
+	.rectangleGroup, 
+	.rectangleContainer, 
+	.rectangleParent2 {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+	.rectangleIcon {
+		position: relative;
+		width: 100%;
+		height: auto;
+		order: -1;
+	}
+	.frameDiv, 
+	.frameParent2 {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+		padding: 24px;
+		box-sizing: border-box;
+	}
+	.overheadSingleGirderEotCraWrapper,
+	.underslungEotCranesWrapper,
+	.economicalOverheadCraneSystWrapper,
+	.overheadCraneSystemForFaciWrapper,
+	.yardCranesForHeavyLiftingWrapper {
+		position: relative;
+		width: 100%;
+		height: auto;
+		top: auto;
+		left: auto;
+	}
+	.overheadSingleGirder,
+	.economicalOverheadCrane,
+	.overheadCraneSystem {
+		position: relative;
+		width: 100%;
+		white-space: normal;
+		top: auto;
+		left: auto;
+	}
+	.economicalOverheadCraneSystWrapper,
+	.overheadCraneSystemForFaciWrapper,
+	.yardCranesForHeavyLiftingWrapper {
+		margin-top: 8px;
+	}
+	.strongEveryContainer {
+		white-space: normal;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 768px) {
+	.completeEotCraneSolutionsWrapper {
+		padding: 32px 16px;
+	}
+	.completeEotCrane {
+		font-size: 26px;
+		line-height: 34px;
+	}
+	.asALeading {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.leftSticky {
+		gap: 12px;
+	}
+	.frameParent {
+		grid-template-columns: 1fr;
+	}
+	.overlayborder {
+		padding: 16px;
+	}
+	.strongEveryContainer {
+		white-space: normal;
+		font-size: 13px;
+	}
+	.overheadSingleGirder {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.economicalOverheadCraneSystWrapper,
+	.overheadCraneSystemForFaciWrapper,
+	.yardCranesForHeavyLiftingWrapper {
+		font-size: 14px;
+	}
+	.economicalOverheadCrane,
+	.overheadCraneSystem {
+		line-height: 20px;
+	}
+	.rectangleIcon {
+		height: 200px;
+	}
+}

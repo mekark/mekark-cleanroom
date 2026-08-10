@@ -6,7 +6,13 @@ export function useDesignScale() {
 	const [scale, setScale] = useState(1);
 
 	useEffect(() => {
-		const updateScale = () => setScale(window.innerWidth / DESIGN_WIDTH);
+		const updateScale = () => {
+			if (window.innerWidth < 1200) {
+				setScale(1);
+			} else {
+				setScale(window.innerWidth / DESIGN_WIDTH);
+			}
+		};
 		updateScale();
 		window.addEventListener("resize", updateScale);
 		return () => window.removeEventListener("resize", updateScale);

@@ -154,3 +154,110 @@
 	max-height: 100%;
 	width: 66.7px;
 }
+
+@media (max-width: 1200px) {
+	.grid1ParentWrapper { height: auto !important; }
+	.grid1Parent {
+		width: 100%;
+		height: auto;
+		transform: none !important;
+		display: flex;
+		flex-direction: column;
+		padding: 40px;
+		box-sizing: border-box;
+	}
+	.grid1Icon { display: none; }
+	.frameParent {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+	}
+	.howWeDeliverYourProjectWrapper {
+		width: 100%;
+		height: auto;
+	}
+	.howWeDeliver {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		font-size: 32px;
+		line-height: 40px;
+		white-space: normal;
+		text-align: center;
+		justify-content: center;
+		letter-spacing: normal;
+	}
+	.frameGroup {
+		position: relative;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+		margin-top: 24px;
+	}
+	.rectangleParent {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		align-items: center;
+		text-align: center;
+	}
+	.frameChild {
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+	.frameItem, .frameChild2 {
+		display: none;
+	}
+	.tablerclipboardSearchIcon {
+		position: absolute;
+		top: 33.33px;
+		left: calc(50% - 20px);
+	}
+	.container {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+	.container2, .container3, .container9 {
+		position: relative;
+		top: auto;
+		left: auto;
+		right: auto;
+		width: 100%;
+		height: auto;
+		align-items: center;
+		text-align: center;
+	}
+	.siteAssessment, .weEvaluateYour {
+		width: 100%;
+		text-align: center;
+		white-space: normal;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 768px) {
+	.grid1Parent {
+		padding: 40px 16px;
+	}
+	.howWeDeliver {
+		font-size: 28px;
+		line-height: 36px;
+	}
+}
