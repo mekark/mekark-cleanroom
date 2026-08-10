@@ -1,0 +1,445 @@
+.faqWrapper {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background-color: #fff;
+}
+.faq {
+	width: 1920px;
+	height: 881.8px;
+	position: relative;
+	background-color: #fff;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 93.3px 106.7px;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 53.33px;
+	color: #111;
+	font-family: var(--font-manrope), sans-serif;
+	transform-origin: top left;
+}
+.frameParent {
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 66.7px;
+}
+.frequentlyAskedQuestionsWrapper {
+	width: 1480px;
+	height: 66px;
+	position: relative;
+}
+.frequentlyAskedQuestions {
+	position: absolute;
+	top: -0.33px;
+	left: calc(50% - 346px);
+	letter-spacing: -1.33px;
+	line-height: 65.33px;
+	display: flex;
+	align-items: center;
+	width: 693px;
+}
+.divspaceY3Parent {
+	width: 1706.7px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+	font-size: 16px;
+	color: #e60f1a;
+	font-family: var(--font-montserrat), sans-serif;
+}
+.divreveal {
+	align-self: stretch;
+	border-radius: 20.78px;
+	background-color: #fff;
+	border: 1px solid #e3e4e7;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px 24.9px;
+}
+.buttonradixRDaaq {
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+	padding: 20.8px 0px;
+}
+.spanflex {
+	height: 58.2px;
+	width: 679.5px;
+	position: relative;
+}
+.b {
+	position: absolute;
+	top: 20.85px;
+	left: 0px;
+	letter-spacing: -0.47px;
+	line-height: 16.62px;
+}
+.whatIsAn {
+	position: absolute;
+	top: calc(50% - 12.57px);
+	left: 37.4px;
+	font-size: 18.67px;
+	letter-spacing: -0.47px;
+	line-height: 26.67px;
+	font-weight: 600;
+	font-family: var(--font-manrope), sans-serif;
+	color: #101116;
+	display: flex;
+	align-items: center;
+	width: 609.9px;
+}
+.component1 {
+	height: 16.6px;
+	width: 16.6px;
+	position: relative;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.vectorIcon {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.buttonradixRLaaq {
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+	padding: 20.8px 0px;
+	gap: 54px;
+}
+.spanflex2 {
+	height: 58.2px;
+	width: 625.5px;
+	position: relative;
+}
+.b2 {
+	position: absolute;
+	top: 20.36px;
+	left: -0.64px;
+	letter-spacing: -0.47px;
+	line-height: 16.62px;
+	flex-shrink: 0;
+}
+.whatLoadCapacities {
+	position: absolute;
+	top: 16.53px;
+	left: 38.44px;
+	font-size: 18.67px;
+	letter-spacing: -0.47px;
+	line-height: 26.67px;
+	font-weight: 600;
+	font-family: var(--font-manrope), sans-serif;
+	color: #101116;
+	display: flex;
+	align-items: center;
+	width: 592.2px;
+	flex-shrink: 0;
+}
+.divreveal3 {
+	align-self: stretch;
+	height: 101.8px;
+	border-radius: 20.78px;
+	background-color: #fff;
+	border: 1px solid #e3e4e7;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 17.3px 25.3px;
+}
+.buttonradixRTaaq {
+	width: 738.7px;
+	height: 68.2px;
+	display: flex;
+	align-items: center;
+	padding: 20.8px 0px;
+	box-sizing: border-box;
+	gap: 93.5px;
+	flex-shrink: 0;
+}
+.spanflex3 {
+	width: 586px;
+	display: flex;
+	align-items: center;
+	gap: 16.6px;
+}
+.b3 {
+	position: relative;
+	letter-spacing: -0.47px;
+	line-height: 16.62px;
+}
+.howLongDoes {
+	width: 547.5px;
+	position: relative;
+	font-size: 18.67px;
+	letter-spacing: -0.47px;
+	line-height: 26.67px;
+	font-weight: 600;
+	font-family: var(--font-manrope), sans-serif;
+	color: #101116;
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+}
+.buttonradixR15aaq {
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+	padding: 20.8px 0px;
+	gap: 53px;
+}
+.spanflex4 {
+	height: 58.2px;
+	width: 626.5px;
+	position: relative;
+}
+.b4 {
+	position: absolute;
+	top: 20.71px;
+	left: 0px;
+	letter-spacing: -0.47px;
+	line-height: 16.62px;
+}
+.areMekarksEot {
+	position: absolute;
+	top: 16.26px;
+	left: 38.44px;
+	font-size: 18.67px;
+	letter-spacing: -0.47px;
+	line-height: 26.67px;
+	font-weight: 600;
+	font-family: var(--font-manrope), sans-serif;
+	color: #101116;
+	display: flex;
+	align-items: center;
+	width: 588.1px;
+}
+.buttonradixR1daaq {
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+	padding: 20.8px 0px;
+	gap: 49.9px;
+}
+.spanflex5 {
+	height: 58.2px;
+	width: 629.6px;
+	position: relative;
+}
+.b5 {
+	position: absolute;
+	top: 21.55px;
+	left: -0.64px;
+	letter-spacing: -0.47px;
+	line-height: 16.62px;
+}
+.canAnExisting {
+	position: absolute;
+	top: 17.2px;
+	left: 38.44px;
+	font-size: 18.67px;
+	letter-spacing: -0.47px;
+	line-height: 26.67px;
+	font-weight: 600;
+	font-family: var(--font-manrope), sans-serif;
+	color: #101116;
+	display: flex;
+	align-items: center;
+	width: 591.2px;
+}
+.divrevealParent {
+	width: 790.7px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 13.3px;
+}
+.divreveal6 {
+	align-self: stretch;
+	height: 101.8px;
+	border-radius: 20.78px;
+	background-color: #fff;
+	border: 1px solid #e3e4e7;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 16px 25.3px;
+}
+.buttonradixR1laaq {
+	width: 738.7px;
+	height: 68.2px;
+	display: flex;
+	align-items: center;
+	padding: 20.8px 0px;
+	box-sizing: border-box;
+	gap: 21.8px;
+}
+.spanflex6 {
+	display: flex;
+	align-items: center;
+	gap: 16.6px;
+}
+.whatMaintenanceDoes {
+	width: 619.2px;
+	position: relative;
+	font-size: 18.67px;
+	letter-spacing: -0.47px;
+	line-height: 26.67px;
+	font-weight: 600;
+	font-family: var(--font-manrope), sans-serif;
+	color: #101116;
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+}
+.divreveal7 {
+	align-self: stretch;
+	height: 101.8px;
+	border-radius: 20.78px;
+	background-color: #fff;
+	border: 1px solid #e3e4e7;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px 24.9px;
+}
+.buttonradixR1taaq {
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+	padding: 20.8px 0px;
+	gap: 62.3px;
+}
+.spanflex7 {
+	height: 58.2px;
+	width: 617.2px;
+	position: relative;
+}
+.b7 {
+	position: absolute;
+	top: 22.02px;
+	left: 0px;
+	letter-spacing: -0.47px;
+	line-height: 16.62px;
+}
+.howIsThe {
+	position: absolute;
+	top: 16.98px;
+	left: 38.44px;
+	font-size: 18.67px;
+	letter-spacing: -0.47px;
+	line-height: 26.67px;
+	font-weight: 600;
+	font-family: var(--font-manrope), sans-serif;
+	color: #101116;
+	display: flex;
+	align-items: center;
+	width: 578.7px;
+}
+.buttonradixR25aaq {
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+	padding: 20.8px 0px;
+	gap: 117.4px;
+}
+.spanflex8 {
+	height: 58.2px;
+	width: 562.1px;
+	position: relative;
+}
+.b8 {
+	position: absolute;
+	top: 20.86px;
+	left: 0.69px;
+	letter-spacing: -0.47px;
+	line-height: 16.62px;
+}
+.doesMekarkProvide {
+	position: absolute;
+	top: 16.31px;
+	left: 38.44px;
+	font-size: 18.67px;
+	letter-spacing: -0.47px;
+	line-height: 26.67px;
+	font-weight: 600;
+	font-family: var(--font-manrope), sans-serif;
+	color: #101116;
+	display: flex;
+	align-items: center;
+	width: 523.6px;
+}
+.divreveal9 {
+	align-self: stretch;
+	height: 101.8px;
+	border-radius: 20.78px;
+	background-color: #fff;
+	border: 1px solid #e3e4e7;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 14.7px 25.3px;
+}
+.buttonradixR25aaq2 {
+	width: 738.7px;
+	display: flex;
+	align-items: center;
+	padding: 6.7px 0px;
+	box-sizing: border-box;
+	gap: 117.3px;
+}
+.b9 {
+	position: absolute;
+	top: calc(50% - 7.95px);
+	left: 0.29px;
+	letter-spacing: -0.47px;
+	line-height: 16.62px;
+}
+.whatIndustriesCommonly {
+	position: absolute;
+	top: 16.7px;
+	left: 38.44px;
+	font-size: 18.67px;
+	letter-spacing: -0.47px;
+	line-height: 26.67px;
+	font-weight: 600;
+	font-family: var(--font-manrope), sans-serif;
+	color: #101116;
+	display: flex;
+	align-items: center;
+	width: 523.6px;
+}
+.b10 {
+	position: absolute;
+	top: 20.54px;
+	left: 0.69px;
+	letter-spacing: -0.47px;
+	line-height: 16.62px;
+	flex-shrink: 0;
+}
+.doesMekarkSupply {
+	position: absolute;
+	top: 16.7px;
+	left: 38.44px;
+	font-size: 18.67px;
+	letter-spacing: -0.47px;
+	line-height: 26.67px;
+	font-weight: 600;
+	font-family: var(--font-manrope), sans-serif;
+	color: #101116;
+	display: flex;
+	align-items: center;
+	width: 566.2px;
+	flex-shrink: 0;
+}

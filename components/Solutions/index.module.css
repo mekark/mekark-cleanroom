@@ -1,0 +1,279 @@
+.solutionsWrapper {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background-color: #fff;
+}
+.solutions {
+	width: 1920px;
+	height: 840px;
+	position: relative;
+	background-color: #fff;
+	overflow: hidden;
+	flex-shrink: 0;
+	text-align: center;
+	font-size: 18px;
+	color: #8b91a0;
+	font-family: var(--font-manrope), sans-serif;
+	transform-origin: top left;
+}
+.whereverYoureLocatedContainer {
+	position: absolute;
+	top: 710px;
+	left: 492px;
+	line-height: 23px;
+	flex-shrink: 0;
+}
+.whereverYoureLocated {
+	line-height: 23px;
+}
+.mekarkEngineersEot {
+	color: #e40015;
+	line-height: 23px;
+}
+.grid1Icon {
+	position: absolute;
+	top: -13.33px;
+	left: 0px;
+	width: 1917.8px;
+	height: 390.7px;
+	object-fit: cover;
+	flex-shrink: 0;
+}
+.frameParent {
+	position: absolute;
+	width: calc(100% - 214px);
+	top: 107px;
+	right: 107px;
+	left: 107px;
+	height: 564px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 66.7px;
+	flex-shrink: 0;
+	text-align: left;
+	font-size: 50px;
+	color: #111;
+}
+.frameGroup {
+	width: 1452px;
+	height: 109px;
+	position: relative;
+}
+.eotCraneSolutionsAcrossSouWrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1452px;
+	height: 65px;
+}
+.eotCraneSolutions {
+	position: absolute;
+	top: -0.67px;
+	left: calc(50% - 678px);
+	letter-spacing: -1.33px;
+	line-height: 65.33px;
+	display: flex;
+	align-items: center;
+	width: 1356px;
+}
+.ourEotCranesServeDiverseIWrapper {
+	position: absolute;
+	top: 82px;
+	left: 272px;
+	width: 908px;
+	height: 27px;
+	font-size: 18px;
+	color: #000;
+}
+.ourEotCranes {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	line-height: 27px;
+	display: flex;
+	align-items: center;
+	width: 908px;
+}
+.frameContainer {
+	align-self: stretch;
+	height: 388px;
+	position: relative;
+	font-size: 18.67px;
+	color: #3c3938;
+	font-family: var(--font-montserrat), sans-serif;
+}
+.rectangleParent {
+	position: absolute;
+	top: -0.67px;
+	left: 0px;
+	width: 257px;
+	height: 389px;
+}
+.frameChild {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 21.33px;
+	width: 257.3px;
+	height: 257.3px;
+	object-fit: cover;
+}
+.container {
+	position: absolute;
+	top: 292px;
+	left: 0px;
+	width: 257px;
+	height: 97px;
+}
+.container2 {
+	position: absolute;
+	width: calc(100% + 0.3px);
+	top: -1.33px;
+	right: -0.3px;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+.steelMetal {
+	align-self: stretch;
+	position: relative;
+	line-height: 21.33px;
+}
+.container3 {
+	position: absolute;
+	width: calc(100% + 0.3px);
+	top: 36.33px;
+	right: -0.3px;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-shrink: 0;
+	font-size: 16px;
+	color: #555;
+}
+.heavyDutyCranesFor {
+	width: 257.3px;
+	position: relative;
+	line-height: 21.33px;
+	display: flex;
+	align-items: center;
+}
+.rectangleGroup {
+	position: absolute;
+	top: -0.67px;
+	left: 289px;
+	width: 258px;
+	height: 389px;
+}
+.container4 {
+	position: absolute;
+	top: 292px;
+	left: 0px;
+	width: 257px;
+	height: 79px;
+}
+.automotiveManufacturing {
+	width: 271px;
+	position: relative;
+	line-height: 21.33px;
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+}
+.rectangleContainer {
+	position: absolute;
+	top: -0.67px;
+	left: 580px;
+	width: 257px;
+	height: 384px;
+}
+.container7 {
+	position: absolute;
+	top: 292px;
+	left: 0px;
+	width: 257px;
+	height: 80px;
+}
+.powerPlants {
+	position: relative;
+	line-height: 26.87px;
+}
+.container9 {
+	position: absolute;
+	width: calc(100% + 0.3px);
+	top: 36.69px;
+	right: -0.3px;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-shrink: 0;
+	font-size: 16px;
+	color: #555;
+}
+.frameDiv {
+	position: absolute;
+	top: -0.67px;
+	left: 869px;
+	width: 258px;
+	height: 389px;
+}
+.rectangleParent2 {
+	position: absolute;
+	top: -0.67px;
+	left: 1159px;
+	width: 258px;
+	height: 389px;
+}
+.frameChild2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 21.33px;
+	width: 258.7px;
+	height: 257.3px;
+	object-fit: cover;
+}
+.container13 {
+	position: absolute;
+	top: 292px;
+	left: 0px;
+	width: 259px;
+	height: 97px;
+}
+.container14 {
+	position: absolute;
+	width: calc(100% - 0.3px);
+	top: -1.33px;
+	right: 0.3px;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+.container15 {
+	position: absolute;
+	width: calc(100% - 0.3px);
+	top: 53.33px;
+	right: 0.3px;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-shrink: 0;
+	font-size: 16px;
+	color: #555;
+}
+.rectangleParent3 {
+	position: absolute;
+	top: -0.67px;
+	left: 1449px;
+	width: 258px;
+	height: 389px;
+}

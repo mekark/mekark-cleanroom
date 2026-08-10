@@ -1,0 +1,102 @@
+.sectionWrapper {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.section {
+	width: 1920px;
+	height: 206.7px;
+	position: relative;
+	background: linear-gradient(96.33deg, #8b0c11, #ed1d23);
+	text-align: left;
+	font-size: 45.33px;
+	color: #fff;
+	font-family: var(--font-manrope), sans-serif;
+	transform-origin: top left;
+}
+.readyToEngineerYourIdealEParent {
+	position: absolute;
+	top: calc(50% - 66.15px);
+	left: 388px;
+	width: 1076px;
+	height: 132px;
+	flex-shrink: 0;
+}
+.readyToEngineer {
+	position: absolute;
+	top: 0px;
+	left: calc(50% - 537.67px);
+	line-height: 50.52px;
+	font-weight: 800;
+	display: flex;
+	align-items: center;
+	width: 1012px;
+	height: 64px;
+	flex-shrink: 0;
+}
+.partnerWithMekarkSouth {
+	position: absolute;
+	top: 62px;
+	left: calc(50% - 538px);
+	font-size: 22px;
+	letter-spacing: 1.42px;
+	line-height: 28px;
+	font-weight: 500;
+	color: #ccc6c6;
+	display: flex;
+	align-items: center;
+	width: 1076px;
+	height: 73px;
+	flex-shrink: 0;
+}
+.cta {
+	position: absolute;
+	top: calc(50% - 36.03px);
+	left: 1420px;
+	border-radius: 52813244px;
+	background-color: #fff;
+	width: 420px;
+	height: 72.8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 18.9px 31.5px;
+	box-sizing: border-box;
+	gap: 8px;
+	flex-shrink: 0;
+	font-size: 20.94px;
+	color: #0e0e0e;
+}
+.requestAFree {
+	position: relative;
+	line-height: 31.48px;
+	flex-shrink: 0;
+}
+.component4 {
+	height: 40px;
+	width: 40px;
+	position: relative;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.vectorIcon {
+	position: absolute;
+	height: 50.2%;
+	width: 100%;
+	top: 25.05%;
+	right: 18.77%;
+	bottom: 24.75%;
+	left: 18.78%;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+}
+.carenCta1 {
+	position: absolute;
+	top: 0.2px;
+	left: 0px;
+	width: 352px;
+	height: 207px;
+	object-fit: cover;
+	flex-shrink: 0;
+}

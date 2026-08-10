@@ -1,0 +1,554 @@
+.ctaWrapper {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background-color: #f6f6f6;
+}
+.cta {
+	width: 1920px;
+	height: 1324px;
+	position: relative;
+	background-color: #f6f6f6;
+	text-align: left;
+	font-size: 18.67px;
+	color: #ccc6c6;
+	font-family: var(--font-manrope), sans-serif;
+	transform-origin: top left;
+}
+.section {
+	position: absolute;
+	top: calc(50% - 634px);
+	left: calc(50% - 879px);
+	border-radius: 40px;
+	background: linear-gradient(96.33deg, #f01c22, #8b0c11);
+	width: 1758px;
+	height: 264px;
+}
+.ourEngineeringTeamCanAssesParent {
+	position: absolute;
+	top: calc(50% - 90px);
+	left: 422px;
+	width: 644px;
+	height: 179px;
+	flex-shrink: 0;
+}
+.ourEngineeringTeam {
+	position: absolute;
+	top: 98.99px;
+	left: calc(50% - 322px);
+	letter-spacing: 1.42px;
+	line-height: 22.72px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	width: 628px;
+	height: 90px;
+	flex-shrink: 0;
+}
+.notSureWhichContainer {
+	position: absolute;
+	top: -14.01px;
+	left: calc(50% - 322.33px);
+	font-size: 48px;
+	line-height: 50.52px;
+	font-weight: 800;
+	display: flex;
+	align-items: center;
+	width: 674px;
+	height: 113px;
+	flex-shrink: 0;
+	color: #fff;
+}
+.notSureWhichContainer2 {
+	width: 100%;
+}
+.notSureWhich {
+	line-height: 50.52px;
+}
+.fitsYourFacility {
+	color: #000;
+	line-height: 50.52px;
+}
+.sectionChild {
+	position: absolute;
+	top: calc(50% - 76.33px);
+	left: 64.67px;
+	border-right: 2.7px solid rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+	width: 2.7px;
+	height: 152.7px;
+	flex-shrink: 0;
+}
+.cta2 {
+	position: absolute;
+	height: calc(100% - 185px);
+	top: 92px;
+	bottom: 93px;
+	left: 1188px;
+	border-radius: 57340092px;
+	background-color: #fff;
+	width: 422px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20.5px 34.2px;
+	box-sizing: border-box;
+	gap: 8px;
+	flex-shrink: 0;
+	font-size: 22.73px;
+	color: #0e0e0e;
+}
+.talkToOur {
+	position: relative;
+	line-height: 34.18px;
+	white-space: nowrap;
+}
+.component4 {
+	height: 42px;
+	width: 42px;
+	position: relative;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.vectorIcon {
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	top: 25.05%;
+	right: 18.43%;
+	bottom: 24.95%;
+	left: 18.78%;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+}
+.sectionItem {
+	position: absolute;
+	top: 38px;
+	left: 154px;
+	border-radius: 785.36px;
+	width: 180px;
+	height: 180px;
+	flex-shrink: 0;
+}
+.sectionInner {
+	position: absolute;
+	top: 51px;
+	left: 58px;
+	width: 317px;
+	height: 213px;
+	flex-shrink: 0;
+}
+.eotCta1 {
+	position: absolute;
+	top: -28px;
+	left: 24px;
+	width: 443px;
+	height: 292px;
+	object-fit: cover;
+	flex-shrink: 0;
+}
+.frameParent {
+	position: absolute;
+	top: 412px;
+	left: 80px;
+	width: 1759px;
+	height: 837px;
+	text-align: center;
+	font-size: 18px;
+	color: #000;
+}
+.component22Parent {
+	position: absolute;
+	top: calc(50% - 220.5px);
+	left: 106px;
+	width: 892px;
+	height: 484.3px;
+	text-align: left;
+}
+.component22 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 21.57px 0px 0px 0px;
+	background-color: #f6f6f6;
+	width: 296.6px;
+	height: 241.6px;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.frameGroup {
+	position: absolute;
+	top: 99.23px;
+	left: 19.41px;
+	width: 240.5px;
+	height: 111.1px;
+}
+.turnkeyWarehouseConstructionWrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 172.6px;
+	height: 43.1px;
+}
+.turnkeyWarehouseConstruction {
+	position: absolute;
+	top: -0.59px;
+	left: 0px;
+	line-height: 21.57px;
+	flex-shrink: 0;
+	white-space: nowrap;
+}
+.singlePointResponsibilityFrWrapper {
+	position: absolute;
+	top: 52.85px;
+	left: 0px;
+	width: 240.5px;
+	height: 58.2px;
+	font-size: 14px;
+	color: #6e6e6e;
+}
+.singlePointResponsibilityFr {
+	position: absolute;
+	top: -20.44px;
+	left: 0px;
+	line-height: 16.18px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	width: 240.5px;
+	flex-shrink: 0;
+}
+.divsvcIcon {
+	position: absolute;
+	top: 23.73px;
+	left: 19.41px;
+	box-shadow: 0px 4.314389228820801px 17.26px rgba(196, 22, 28, 0.2), 0px 1.0785973072052002px 0px rgba(255, 255, 255, 0.08) inset;
+	border-radius: 14.02px;
+	background: linear-gradient(145deg, rgba(196, 22, 28, 0.3), rgba(196, 22, 28, 0.15));
+	width: 56.1px;
+	height: 56.1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.component26 {
+	position: absolute;
+	top: 242.68px;
+	left: 0px;
+	border-radius: 0px 0px 0px 21.57px;
+	background-color: #f6f6f6;
+	width: 296.6px;
+	height: 241.6px;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.frameContainer {
+	position: absolute;
+	top: 99.23px;
+	left: 19.41px;
+	width: 277.2px;
+	height: 112.2px;
+}
+.higherLoadEfficiencyWrapper {
+	position: absolute;
+	top: -0.27px;
+	left: -0.41px;
+	width: 254px;
+	height: 21px;
+}
+.higherLoadEfficiency {
+	position: absolute;
+	top: -1px;
+	left: 0px;
+	line-height: 21.57px;
+	display: flex;
+	align-items: center;
+	width: 254px;
+}
+.theOptimisedGirderDesignEnWrapper {
+	position: absolute;
+	top: 39.73px;
+	left: 0px;
+	width: 277.2px;
+	height: 58.2px;
+	font-size: 14px;
+	color: #6e6e6e;
+}
+.theOptimisedGirder {
+	position: absolute;
+	top: 0px;
+	left: -0.41px;
+	line-height: 16.18px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	width: 254px;
+}
+.component23 {
+	position: absolute;
+	top: 0px;
+	left: 297.69px;
+	background-color: #f6f6f6;
+	width: 296.6px;
+	height: 241.6px;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.precisionFabricationWrapper {
+	position: absolute;
+	top: 0.41px;
+	left: -0.11px;
+	width: 251px;
+	height: 43px;
+	flex-shrink: 0;
+}
+.precisionFabrication {
+	position: absolute;
+	top: -1px;
+	left: 0px;
+	line-height: 21.57px;
+	display: flex;
+	align-items: center;
+	width: 251px;
+}
+.cncFabricatedPrecisionWeldWrapper {
+	position: absolute;
+	top: 52.85px;
+	left: 0px;
+	width: 240.5px;
+	height: 58.2px;
+	flex-shrink: 0;
+	font-size: 14px;
+	color: #6e6e6e;
+}
+.component27 {
+	position: absolute;
+	top: 242.68px;
+	left: 297.69px;
+	background-color: #f6f6f6;
+	width: 296.6px;
+	height: 241.6px;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.maintenanceAndAfterSalesSuWrapper {
+	position: absolute;
+	top: -12.27px;
+	left: -0.11px;
+	width: 256px;
+	height: 44px;
+	flex-shrink: 0;
+}
+.maintenanceAndAfterSales {
+	position: absolute;
+	top: -0.27px;
+	left: -0.11px;
+	line-height: 21.57px;
+	display: flex;
+	align-items: center;
+	width: 248px;
+}
+.weProvideMaintenanceAndAmcWrapper {
+	position: absolute;
+	top: 50.73px;
+	left: 0px;
+	width: 240.5px;
+	height: 58.2px;
+	flex-shrink: 0;
+	font-size: 14px;
+	color: #6e6e6e;
+}
+.weProvideMaintenance {
+	position: absolute;
+	top: -0.12px;
+	left: -0.11px;
+	line-height: 16.18px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	width: 256px;
+	flex-shrink: 0;
+}
+.component25 {
+	position: absolute;
+	top: 0px;
+	right: -1.06px;
+	border-radius: 0px 21.57px 0px 0px;
+	background-color: #f6f6f6;
+	width: 296.6px;
+	height: 241.6px;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.safetyCompliantWrapper {
+	position: absolute;
+	top: 0.41px;
+	left: 0.12px;
+	width: 240px;
+	height: 43px;
+}
+.safetyCompliant {
+	position: absolute;
+	top: -1px;
+	left: 0.12px;
+	line-height: 21.57px;
+	display: flex;
+	align-items: center;
+	width: 247px;
+	flex-shrink: 0;
+}
+.component29 {
+	position: absolute;
+	top: 242.68px;
+	right: -1.06px;
+	border-radius: 0px 0px 21.57px 0px;
+	background-color: #f6f6f6;
+	width: 296.6px;
+	height: 241.6px;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.frameParent4 {
+	position: absolute;
+	top: 99.23px;
+	left: 19.41px;
+	width: 263.2px;
+	height: 101.4px;
+}
+.longLastingCranesWrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 178px;
+	height: 21.6px;
+}
+.longLastingCranes {
+	position: absolute;
+	top: -1px;
+	left: 0px;
+	line-height: 21.57px;
+	white-space: nowrap;
+}
+.mekarksEotCranesAreEngineWrapper {
+	position: absolute;
+	top: 34.52px;
+	left: 0px;
+	width: 263.2px;
+	height: 58.2px;
+	font-size: 14px;
+	color: #6e6e6e;
+}
+.mekarksEotCranes {
+	position: absolute;
+	top: 5.21px;
+	left: 0.12px;
+	line-height: 16.18px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	width: 252px;
+}
+.frameParent5 {
+	position: absolute;
+	top: 0px;
+	left: 154px;
+	width: 1452px;
+	height: 138px;
+	font-size: 50px;
+	color: #111;
+}
+.whyEotCranesFromMekarkAreWrapper {
+	position: absolute;
+	top: 0px;
+	left: calc(50% - 726px);
+	width: 1452px;
+	height: 65px;
+}
+.whyEotCranes {
+	position: absolute;
+	top: -0.67px;
+	left: calc(50% - 678px);
+	letter-spacing: -1.33px;
+	line-height: 65.33px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1356px;
+}
+.mekarkIsA {
+	position: absolute;
+	top: 84px;
+	left: calc(50% - 576px);
+	font-size: 18px;
+	line-height: 27px;
+	color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1153px;
+}
+.overlayborder {
+	position: absolute;
+	top: 731px;
+	left: calc(50% - 547.5px);
+	border-radius: 12px;
+	background-color: rgba(228, 0, 21, 0.05);
+	border: 0.5px solid rgba(228, 0, 21, 0.5);
+	box-sizing: border-box;
+	width: 1095px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 24px 32px;
+	color: #4c4c4c;
+	font-family: var(--font-montserrat), sans-serif;
+}
+.strongEveryContainer {
+	align-self: stretch;
+	position: relative;
+	letter-spacing: -0.02em;
+	line-height: 23.76px;
+}
+.theDifferenceIsnt {
+	font-weight: 500;
+	line-height: 23.76px;
+}
+.howLongIt {
+	color: #e40015;
+	line-height: 23.76px;
+}
+.image12Parent {
+	position: absolute;
+	top: 560px;
+	left: 1064px;
+	width: 856px;
+	height: 571px;
+}
+.image12Icon {
+	position: absolute;
+	right: 0px;
+	bottom: 8px;
+	width: 856px;
+	height: 563px;
+	object-fit: cover;
+	flex-shrink: 0;
+}
+.crane1Icon {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 850px;
+	height: 571px;
+	object-fit: cover;
+	flex-shrink: 0;
+}
+.frameChild {
+	position: absolute;
+	top: 0px;
+	left: -18px;
+	background: linear-gradient(269.87deg, rgba(246, 246, 246, 0), #f6f6f6);
+	width: 377px;
+	height: 563px;
+	flex-shrink: 0;
+}

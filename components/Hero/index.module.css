@@ -1,0 +1,205 @@
+.heroWrapper {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background-color: #060606;
+}
+.hero {
+	width: 1920px;
+	height: 901px;
+	position: relative;
+	background-color: #060606;
+	overflow: hidden;
+	flex-shrink: 0;
+	text-align: left;
+	font-size: 16px;
+	color: #fff;
+	font-family: var(--font-manrope), sans-serif;
+	transform-origin: top left;
+}
+.image {
+	position: absolute;
+	height: calc(100% + 6px);
+	width: 100%;
+	top: -6px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	flex-shrink: 0;
+}
+.generativeFill1 {
+	position: absolute;
+	top: 6px;
+	right: 0px;
+	width: 1722px;
+	height: 901px;
+	object-fit: cover;
+	flex-shrink: 0;
+}
+.divabsolute {
+	position: absolute;
+	height: calc(100% + 389px);
+	width: calc(100% - 359px);
+	top: -218px;
+	right: 359px;
+	bottom: -171px;
+	left: 0px;
+	background: linear-gradient(90deg, #060606, rgba(6, 6, 6, 0.8) 50%, rgba(6, 6, 6, 0));
+	flex-shrink: 0;
+}
+.div {
+	position: absolute;
+	width: calc(100% - 867px);
+	top: calc(50% - 252.5px);
+	right: 669px;
+	left: 198px;
+	height: 505px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 32px;
+	flex-shrink: 0;
+}
+.divinlineFlex {
+	border-radius: 44739200px;
+	border: 1.3px solid rgba(255, 255, 255, 0.2);
+	display: none;
+	align-items: center;
+	padding: 8px 16px;
+	gap: 10.7px;
+	flex-shrink: 0;
+	font-family: var(--font-inter), sans-serif;
+}
+.spanw2 {
+	height: 10.7px;
+	width: 10.7px;
+	position: relative;
+	border-radius: 44739200px;
+	background-color: #e40015;
+}
+.eotCraneManufacturer {
+	position: relative;
+	letter-spacing: 0.8px;
+	line-height: 21.33px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.h1text5xl {
+	width: 1066px;
+	height: 136px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-shrink: 0;
+	font-size: 60px;
+}
+.engineeredForLoad {
+	width: 1066px;
+	position: relative;
+	letter-spacing: -1px;
+	line-height: 66px;
+	display: flex;
+	align-items: center;
+}
+.rectangleParent {
+	width: 837.3px;
+	height: 60px;
+	position: relative;
+	flex-shrink: 0;
+	font-size: 50px;
+	color: #c4161c;
+}
+.frameChild {
+	position: absolute;
+	top: -0.47px;
+	left: 0.03px;
+	background-color: #fff;
+	width: 598.5px;
+	height: 60px;
+	transform: rotate(0.1deg);
+	transform-origin: 0 0;
+	flex-shrink: 0;
+}
+.eotCranesBy {
+	position: absolute;
+	top: -2.98px;
+	left: 28px;
+	line-height: 66px;
+	flex-shrink: 0;
+}
+.ptextLgWrapper {
+	width: 896px;
+	height: 134px;
+	position: relative;
+	flex-shrink: 0;
+	font-size: 24px;
+	color: rgba(255, 255, 255, 0.7);
+}
+.ptextLg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 896px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	max-width: 896px;
+}
+.southIndiasTrustedContainer {
+	width: 896px;
+	position: relative;
+	line-height: 33.33px;
+	display: flex;
+	align-items: center;
+}
+.southIndiasTrustedContainer2 {
+	width: 100%;
+}
+.southIndiasTrusted {
+	line-height: 33.33px;
+}
+.cta {
+	align-self: stretch;
+	height: 77.3px;
+	position: relative;
+	flex-shrink: 0;
+	font-size: 21.33px;
+	font-family: var(--font-inter), sans-serif;
+}
+.component5 {
+	position: absolute;
+	top: calc(50% - 39.98px);
+	left: 0px;
+	box-shadow: 0px 10.666666984558105px 42.67px rgba(196, 22, 28, 0.3);
+	border-radius: 10.67px;
+	background-color: #c4161c;
+	display: flex;
+	align-items: center;
+	padding: 24px 48px;
+	gap: 13.3px;
+	flex-shrink: 0;
+}
+.text {
+	position: relative;
+	line-height: 32px;
+	font-weight: 600;
+}
+.component4 {
+	height: 40px;
+	width: 40px;
+	position: relative;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.vectorIcon {
+	position: absolute;
+	height: 50.23%;
+	width: 100%;
+	top: 25.04%;
+	right: 18.78%;
+	bottom: 24.73%;
+	left: 18.78%;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+}
