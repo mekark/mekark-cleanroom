@@ -46,12 +46,15 @@
 .howWeDeliver {
 	position: absolute;
 	top: 0.33px;
-	left: calc(50% - 346px);
+	left: calc(50% - 533px);
 	letter-spacing: -1.33px;
 	line-height: 65.33px;
 	display: flex;
 	align-items: center;
-	width: 691px;
+	justify-content: center;
+	text-align: center;
+	white-space: nowrap;
+	width: 1066px;
 	flex-shrink: 0;
 }
 .frameGroup {

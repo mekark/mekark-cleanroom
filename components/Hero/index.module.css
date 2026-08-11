@@ -29,11 +29,12 @@
 }
 .generativeFill1 {
 	position: absolute;
-	top: 6px;
-	right: 0px;
-	width: 1722px;
-	height: 901px;
+	bottom: 0px;
+	right: -5px;
+	width: 1828px;
+	height: 907px;
 	object-fit: cover;
+	object-position: center;
 	flex-shrink: 0;
 }
 .divabsolute {
@@ -49,10 +50,10 @@
 }
 .div {
 	position: absolute;
-	width: calc(100% - 867px);
+	width: calc(100% - 854px);
 	top: calc(50% - 252.5px);
-	right: 669px;
-	left: 198px;
+	right: 704px;
+	left: 150px;
 	height: 505px;
 	display: flex;
 	flex-direction: column;
@@ -114,7 +115,7 @@
 	top: -0.47px;
 	left: 0.03px;
 	background-color: #fff;
-	width: 598.5px;
+	width: 864.2px;
 	height: 60px;
 	transform: rotate(0.1deg);
 	transform-origin: 0 0;
@@ -125,10 +126,11 @@
 	top: -2.98px;
 	left: 28px;
 	line-height: 66px;
+	white-space: nowrap;
 	flex-shrink: 0;
 }
 .ptextLgWrapper {
-	width: 896px;
+	width: 1052px;
 	height: 134px;
 	position: relative;
 	flex-shrink: 0;
@@ -139,14 +141,14 @@
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	width: 896px;
+	width: 1052px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	max-width: 896px;
+	max-width: 1052px;
 }
 .southIndiasTrustedContainer {
-	width: 896px;
+	width: 1052px;
 	position: relative;
 	line-height: 33.33px;
 	display: flex;
@@ -268,6 +270,7 @@
 		background-color: #fff;
 		padding: 8px 24px;
 		display: inline-block;
+		white-space: normal;
 	}
 	.ptextLgWrapper {
 		width: 100%;

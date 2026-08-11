@@ -70,21 +70,20 @@
 	padding: 20.8px 0px;
 }
 .spanflex {
-	height: 58.2px;
 	width: 679.5px;
-	position: relative;
+	min-height: 58.2px;
+	display: flex;
+	align-items: center;
+	gap: 37.4px;
 }
 .b {
-	position: absolute;
-	top: 20.85px;
-	left: 0px;
+	position: relative;
 	letter-spacing: -0.47px;
 	line-height: 16.62px;
+	flex-shrink: 0;
 }
 .whatIsAn {
-	position: absolute;
-	top: calc(50% - 12.57px);
-	left: 37.4px;
+	position: relative;
 	font-size: 18.67px;
 	letter-spacing: -0.47px;
 	line-height: 26.67px;

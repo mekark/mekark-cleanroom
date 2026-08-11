@@ -54,7 +54,7 @@
 	font-weight: 800;
 	display: flex;
 	align-items: center;
-	width: 674px;
+	width: 783px;
 	height: 113px;
 	flex-shrink: 0;
 	color: #fff;
@@ -418,21 +418,23 @@
 }
 .longLastingCranesWrapper {
 	position: absolute;
-	top: 0px;
+	top: -11px;
 	left: 0px;
-	width: 178px;
-	height: 21.6px;
+	width: 252px;
+	height: 44px;
 }
 .longLastingCranes {
 	position: absolute;
-	top: -1px;
+	top: -0.27px;
 	left: 0px;
 	line-height: 21.57px;
-	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	width: 248px;
 }
 .mekarksEotCranesAreEngineWrapper {
 	position: absolute;
-	top: 34.52px;
+	top: 46.52px;
 	left: 0px;
 	width: 263.2px;
 	height: 58.2px;
@@ -490,13 +492,13 @@
 }
 .overlayborder {
 	position: absolute;
-	top: 731px;
-	left: calc(50% - 547.5px);
+	top: 758px;
+	left: calc(50% - 654.5px);
 	border-radius: 12px;
 	background-color: rgba(228, 0, 21, 0.05);
 	border: 0.5px solid rgba(228, 0, 21, 0.5);
 	box-sizing: border-box;
-	width: 1095px;
+	width: 1309px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -509,6 +511,8 @@
 	position: relative;
 	letter-spacing: -0.02em;
 	line-height: 23.76px;
+	white-space: nowrap;
+	text-align: center;
 }
 .theDifferenceIsnt {
 	font-weight: 500;
@@ -748,6 +752,10 @@
 		left: auto;
 		width: 100%;
 		box-sizing: border-box;
+	}
+	.strongEveryContainer {
+		white-space: normal;
+		text-align: left;
 	}
 }
 

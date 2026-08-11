@@ -16,7 +16,7 @@ const Process: NextPage = () => {
 				<Image className={styles.grid1Icon} src="/images/process/grid-1.png" width={1917.8} height={390.7} sizes="100vw" alt="" />
 				<div className={styles.frameParent}>
 					<div className={styles.howWeDeliverYourProjectWrapper}>
-						<b className={styles.howWeDeliver}>How We Deliver Your Project</b>
+						<b className={styles.howWeDeliver}>Our Heavy Duty Racking Execution Process</b>
 					</div>
 					<div className={styles.frameGroup}>
 						<div className={styles.rectangleParent}>
@@ -26,7 +26,7 @@ const Process: NextPage = () => {
 									<b className={styles.siteAssessment}>{`Site Assessment & Load Analysis`}</b>
 								</div>
 								<div className={styles.container3}>
-									<div className={styles.weEvaluateYour}>We evaluate your facility&apos;s span, load capacity, and duty cycle to determine the ideal EOT crane specification.</div>
+									<div className={styles.weEvaluateYour}>We evaluate your warehouse layout, load capacity, and storage volume to determine the ideal pallet racking specification.</div>
 								</div>
 							</div>
 							<Image className={styles.frameItem} src="/images/process/line.svg" width={66.7} height={19.6} sizes="100vw" alt="" />
@@ -39,7 +39,7 @@ const Process: NextPage = () => {
 									<b className={styles.siteAssessment}>{`Custom Design & Engineering`}</b>
 								</div>
 								<div className={styles.container3}>
-									<div className={styles.weEvaluateYour}>Structural modelling ensures a crane system optimised for load efficiency, safety, and durability.</div>
+									<div className={styles.weEvaluateYour}>Structural modelling ensures a racking system optimised for storage density, safety, and durability.</div>
 								</div>
 							</div>
 							<Image className={styles.frameItem} src="/images/process/line.svg" width={66.7} height={19.6} sizes="100vw" alt="" />
@@ -54,7 +54,7 @@ const Process: NextPage = () => {
 									<b className={styles.siteAssessment}>{`Fabrication & Quality Testing`}</b>
 								</div>
 								<div className={styles.container9}>
-									<div className={styles.weEvaluateYour}>Every component is CNC-fabricated and tested for structural integrity and load performance.</div>
+									<div className={styles.weEvaluateYour}>Every component is CNC-fabricated and load-tested for structural integrity and performance.</div>
 								</div>
 							</div>
 							<Image className={styles.frameChild2} src="/images/process/line.svg" width={66.7} height={19.6} sizes="100vw" alt="" />
@@ -81,10 +81,10 @@ const Process: NextPage = () => {
 							<div className={styles.frameChild} />
 							<div className={styles.container}>
 								<div className={styles.container2}>
-									<b className={styles.siteAssessment}>{`Testing, Certification & Handover`}</b>
+									<b className={styles.siteAssessment}>{`Inspection & Certification`}</b>
 								</div>
 								<div className={styles.container3}>
-									<div className={styles.weEvaluateYour}>Each crane undergoes load testing and safety certification per IS standards before handover.</div>
+									<div className={styles.weEvaluateYour}>Each racking system undergoes load testing and safety inspection per IS standards before handover.</div>
 								</div>
 							</div>
 							<Image className={styles.frameItem} src="/images/process/line.svg" width={66.7} height={19.6} sizes="100vw" alt="" />
@@ -99,7 +99,7 @@ const Process: NextPage = () => {
 									<b className={styles.siteAssessment}>{`Maintenance & AMC Support`}</b>
 								</div>
 								<div className={styles.container3}>
-									<div className={styles.weEvaluateYour}>AMC support across South India keeps your EOT crane running safely for years to come.</div>
+									<div className={styles.weEvaluateYour}>AMC support across South India keeps your industrial storage racks safe and stable for years to come.</div>
 								</div>
 							</div>
 							<div className={styles.tablerclipboardSearchIcon}>

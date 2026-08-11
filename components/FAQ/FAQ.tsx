@@ -8,44 +8,44 @@ const DESIGN_HEIGHT = 881.8;
 
 const faqs = [
 	{
-		q: "What is an EOT crane and how does it work?",
-		a: "An EOT (Electric Overhead Travelling) crane is a material handling system mounted on an elevated runway, using electrically powered hoists and trolleys to lift and move heavy loads horizontally and vertically across a facility."
+		q: "What is a clean room and how does it work?",
+		a: "A clean room is a controlled environment engineered to maintain low levels of airborne particulates, using HEPA filtration, controlled air changes, and pressure differentials to prevent contamination of sensitive products and processes."
 	},
 	{
-		q: "What load capacities do Mekark's EOT cranes support?",
-		a: "Mekark designs and manufactures EOT cranes across a wide range of load capacities, from light-duty 1-ton cranes to heavy-duty systems exceeding 100 tons, based on your facility's specific requirements."
+		q: "Who is the best clean room manufacturer in South India?",
+		a: "Mekark is a leading clean room manufacturer in South India, designing and installing modular clean rooms and contamination-control systems across Tamil Nadu, Karnataka, Andhra Pradesh, Telangana, and Kerala."
 	},
 	{
-		q: "How long does it take to install an EOT crane?",
-		a: "Installation timelines depend on crane capacity, span, and site readiness, but our integrated design-to-commissioning process significantly reduces lead times compared to multi-vendor execution."
+		q: "What cleanliness classes do Mekark's clean rooms support?",
+		a: "Mekark designs and manufactures clean rooms across a wide range of ISO cleanliness classes, from ISO Class 5 to ISO Class 8, based on your facility's specific process and regulatory requirements."
 	},
 	{
-		q: "Are Mekark's EOT cranes compliant with safety standards?",
-		a: "Yes. All our EOT cranes are engineered in compliance with IS 3177 and IS 807 standards, incorporating certified safety interlocks, overload protection, and emergency stop systems."
+		q: "How long does it take to install a modular clean room?",
+		a: "Installation timelines depend on clean room size, cleanliness class, and site readiness, but our integrated design-to-commissioning process significantly reduces lead times compared to multi-vendor execution."
 	},
 	{
-		q: "Can an existing overhead crane be upgraded instead of replaced?",
-		a: "Yes. We offer crane modernisation and retrofitting services, upgrading electricals, VFDs, and safety systems on existing overhead cranes to extend operational life and improve efficiency."
+		q: "Are Mekark's clean rooms compliant with regulatory standards?",
+		a: "Yes. All our clean room systems are engineered in compliance with ISO 14644, GMP, and WHO-GMP standards, incorporating validated air change rates, pressure differentials, and HEPA filtration."
 	},
 	{
-		q: "What maintenance does an EOT crane require?",
-		a: "Regular maintenance includes wire rope inspection, hoist motor servicing, brake system checks, and structural inspections. Mekark offers AMC packages across South India to keep your crane operating safely and efficiently."
+		q: "Can existing clean rooms be reconfigured or expanded instead of replaced?",
+		a: "Yes. We offer clean room modification and expansion services, reconfiguring layouts, HVAC capacity, and panel systems to extend usable life and improve contamination control."
 	},
 	{
-		q: "How is the right EOT crane capacity determined for my facility?",
-		a: "Our engineers assess your maximum load requirements, lifting frequency, span, headroom, and duty cycle to recommend the optimal crane capacity and configuration for your operations."
+		q: "How is the right clean room classification determined for my facility?",
+		a: "Our engineers assess your process requirements, product sensitivity, occupancy, and airflow needs to recommend the optimal cleanliness class and clean room configuration for your operations."
 	},
 	{
-		q: "Does Mekark provide EOT cranes for outdoor applications?",
-		a: "Yes. We manufacture Goliath and semi-Goliath cranes specifically engineered for outdoor, yard-based, and heavy fabrication environments."
+		q: "Does Mekark provide clean rooms for pharmaceutical applications?",
+		a: "Yes. We manufacture GMP-compliant modular clean rooms specifically engineered for pharmaceutical manufacturing, formulation, and packaging environments."
 	},
 	{
-		q: "What industries commonly use EOT cranes?",
-		a: "EOT cranes are widely used across steel and metal fabrication, automotive manufacturing, power plants, warehousing, cement industries, shipbuilding, and foundries, anywhere heavy material handling is a core operational need."
+		q: "What industries commonly use clean room systems?",
+		a: "Clean rooms are widely used across pharmaceuticals, biotechnology, electronics, healthcare, food processing, cosmetics, and aerospace, anywhere contamination-controlled environments are a core operational need."
 	},
 	{
-		q: "Does Mekark supply and install EOT cranes across South India?",
-		a: "Yes. Mekark manufactures, supplies, and installs EOT cranes across Tamil Nadu, Karnataka, Andhra Pradesh, Telangana, and Kerala, with on-site installation and AMC support throughout South India's major industrial hubs."
+		q: "Does Mekark supply and install clean room systems across South India?",
+		a: "Yes. Mekark manufactures, supplies, and installs modular clean room systems across Tamil Nadu, Karnataka, Andhra Pradesh, Telangana, and Kerala, with on-site installation and AMC support throughout Chennai, Coimbatore, Bengaluru, Hyderabad, and Kochi."
 	}
 ];
 

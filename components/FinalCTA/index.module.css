@@ -5,7 +5,7 @@
 }
 .section {
 	width: 1920px;
-	height: 206.7px;
+	height: 280px;
 	position: relative;
 	background: linear-gradient(96.33deg, #8b0c11, #ed1d23);
 	text-align: left;
@@ -16,10 +16,10 @@
 }
 .readyToEngineerYourIdealEParent {
 	position: absolute;
-	top: calc(50% - 66.15px);
+	top: calc(50% - 95px);
 	left: 388px;
 	width: 1076px;
-	height: 132px;
+	height: 190px;
 	flex-shrink: 0;
 }
 .readyToEngineer {
@@ -31,14 +31,14 @@
 	display: flex;
 	align-items: center;
 	width: 1012px;
-	height: 64px;
+	height: auto;
 	flex-shrink: 0;
 }
 .partnerWithMekarkSouth {
 	position: absolute;
-	top: 62px;
+	top: 110px;
 	left: calc(50% - 538px);
-	font-size: 22px;
+	font-size: 21px;
 	letter-spacing: 1.42px;
 	line-height: 28px;
 	font-weight: 500;
@@ -46,7 +46,7 @@
 	display: flex;
 	align-items: center;
 	width: 1076px;
-	height: 73px;
+	height: auto;
 	flex-shrink: 0;
 }
 .cta {
@@ -93,10 +93,10 @@
 }
 .carenCta1 {
 	position: absolute;
-	top: 0.2px;
+	top: 0px;
 	left: 0px;
 	width: 352px;
-	height: 207px;
+	height: 100%;
 	object-fit: cover;
 	flex-shrink: 0;
 }

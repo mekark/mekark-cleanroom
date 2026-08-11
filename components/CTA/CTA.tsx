@@ -14,17 +14,17 @@ const CTA: NextPage = () => {
 			<div className={styles.cta} style={{ transform: `scale(${scale})` }}>
 				<div className={styles.section}>
 					<div className={styles.ourEngineeringTeamCanAssesParent}>
-						<div className={styles.ourEngineeringTeam}>Our engineering team can assess your load capacity,<br />span, and operational requirements to recommend the right overhead crane solution at no cost to you.</div>
+						<div className={styles.ourEngineeringTeam}>Our engineering team can assess your load capacity, storage volume, and space constraints to recommend the right heavy-duty racking solution, at no cost to you.</div>
 						<div className={styles.notSureWhichContainer}>
 							<span className={styles.notSureWhichContainer2}>
-								<span className={styles.notSureWhich}>{`Not Sure Which EOT Crane `}</span>
-								<span className={styles.fitsYourFacility}>Fits Your Facility?</span>
+								<span className={styles.notSureWhich}>{`Not Sure Which Pallet Racking System `}</span>
+								<span className={styles.fitsYourFacility}>Fits Your Warehouse?</span>
 							</span>
 						</div>
 					</div>
 					<div className={styles.sectionChild} />
 					<div className={styles.cta2}>
-						<b className={styles.talkToOur}>Talk to Our Crane Engineers</b>
+						<b className={styles.talkToOur}>Talk to Our Racking Engineers</b>
 						<div className={styles.component4}>
 							<Image className={styles.vectorIcon} src="/images/cta/arrow.svg" width={31.8} height={25.3} sizes="100vw" alt="" />
 						</div>
@@ -41,7 +41,7 @@ const CTA: NextPage = () => {
 									<b className={styles.turnkeyWarehouseConstruction}>Custom-Engineered Design</b>
 								</div>
 								<div className={styles.singlePointResponsibilityFrWrapper}>
-									<div className={styles.singlePointResponsibilityFr}>Each EOT crane is tailor-made for your specific load capacity, span and duty cycle.</div>
+									<div className={styles.singlePointResponsibilityFr}>Each pallet racking system is tailor-made for your specific load capacity, pallet type, and warehouse layout.</div>
 								</div>
 							</div>
 							<div className={styles.divsvcIcon}>
@@ -51,10 +51,10 @@ const CTA: NextPage = () => {
 						<div className={styles.component26}>
 							<div className={styles.frameContainer}>
 								<div className={styles.higherLoadEfficiencyWrapper}>
-									<b className={styles.higherLoadEfficiency}>Higher Load Efficiency</b>
+									<b className={styles.higherLoadEfficiency}>Higher Storage Density</b>
 								</div>
 								<div className={styles.theOptimisedGirderDesignEnWrapper}>
-									<div className={styles.theOptimisedGirder}>The optimised girder design ensures<br />you get more lifting power from a<br />lighter crane design.</div>
+									<div className={styles.theOptimisedGirder}>Optimised bay and beam design ensures you get more storage capacity from the same warehouse footprint.</div>
 								</div>
 							</div>
 							<div className={styles.divsvcIcon}>
@@ -67,7 +67,7 @@ const CTA: NextPage = () => {
 									<b className={styles.precisionFabrication}>Precision Fabrication</b>
 								</div>
 								<div className={styles.cncFabricatedPrecisionWeldWrapper}>
-									<div className={styles.singlePointResponsibilityFr}>CNC-fabricated, precision-welded steel structures ensure consistent tolerances and structural integrity, eliminating weak points common in manually fabricated cranes.</div>
+									<div className={styles.singlePointResponsibilityFr}>CNC-fabricated, roll-formed steel sections ensure consistent tolerances and structural integrity, eliminating weak points common in manually fabricated MS pallet racks.</div>
 								</div>
 							</div>
 							<div className={styles.divsvcIcon}>
@@ -80,7 +80,7 @@ const CTA: NextPage = () => {
 									<b className={styles.maintenanceAndAfterSales}>Maintenance and After-Sales Support</b>
 								</div>
 								<div className={styles.weProvideMaintenanceAndAmcWrapper}>
-									<div className={styles.weProvideMaintenance}>We provide maintenance and AMC support across South India to ensure your EOT crane works optimally even years after installation.</div>
+									<div className={styles.weProvideMaintenance}>We provide rack inspection and AMC support across South India to ensure your industrial storage racks remain safe and stable for years after installation.</div>
 								</div>
 							</div>
 							<div className={styles.divsvcIcon}>
@@ -93,7 +93,7 @@ const CTA: NextPage = () => {
 									<b className={styles.safetyCompliant}>Safety Compliant</b>
 								</div>
 								<div className={styles.singlePointResponsibilityFrWrapper}>
-									<div className={styles.singlePointResponsibilityFr}>Our EOT cranes meet IS 3177 and IS 807 specifications in terms of certification, interlocks, overload and emergency stop mechanisms for added safety.</div>
+									<div className={styles.singlePointResponsibilityFr}>Our heavy-duty racking systems meet IS 807 and MHE code specifications for load rating, seismic bracing, and safety accessories such as column guards and beam locks.</div>
 								</div>
 							</div>
 							<div className={styles.divsvcIcon}>
@@ -103,10 +103,10 @@ const CTA: NextPage = () => {
 						<div className={styles.component29}>
 							<div className={styles.frameParent4}>
 								<div className={styles.longLastingCranesWrapper}>
-									<b className={styles.longLastingCranes}>Long-lasting Cranes</b>
+									<b className={styles.longLastingCranes}>Long-lasting Racking Systems</b>
 								</div>
 								<div className={styles.mekarksEotCranesAreEngineWrapper}>
-									<div className={styles.mekarksEotCranes}>Mekark&apos;s EOT cranes are engineered<br />to operate continuously in an industrial setting for over 20 years.</div>
+									<div className={styles.mekarksEotCranes}>Mekark&apos;s heavy-duty racks are engineered to operate continuously under industrial load for over X+ years.</div>
 								</div>
 							</div>
 							<div className={styles.divsvcIcon}>
@@ -116,15 +116,15 @@ const CTA: NextPage = () => {
 					</div>
 					<div className={styles.frameParent5}>
 						<div className={styles.whyEotCranesFromMekarkAreWrapper}>
-							<b className={styles.whyEotCranes}>Why EOT Cranes from Mekark Are the Better Choice</b>
+							<b className={styles.whyEotCranes}>Engineered to Outperform. Built to Outlast.</b>
 						</div>
-						<div className={styles.mekarkIsA}>Mekark is a leading EOT crane manufacturer in South India, building electric overhead travelling cranes engineered for performance, safety, and long-term structural reliability. Below are some ways Mekark&apos;s EOT cranes differ from the traditional non-branded counterparts.</div>
+						<div className={styles.mekarkIsA}>Mekark is a leading heavy-duty racking manufacturer in South India, building industrial storage racks and pallet racking systems engineered for load performance, safety, and long-term structural reliability.</div>
 					</div>
 					<div className={styles.overlayborder}>
 						<div className={styles.strongEveryContainer}>
-							<i className={styles.theDifferenceIsnt}>{`The difference isn't just how a crane lifts; it's `}</i>
-							<b className={styles.howLongIt}>how long it lasts.</b>
-							<i className={styles.theDifferenceIsnt}> That&apos;s the engineering standard Mekark builds to.</i>
+							<i className={styles.theDifferenceIsnt}>{`The difference isn't just how much a racking system holds; it's `}</i>
+							<b className={styles.howLongIt}>how long it holds it safely</b>
+							<i className={styles.theDifferenceIsnt}>. That&apos;s the engineering standard Mekark builds to.</i>
 						</div>
 					</div>
 				</div>

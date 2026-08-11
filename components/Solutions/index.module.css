@@ -6,7 +6,7 @@
 }
 .solutions {
 	width: 1920px;
-	height: 840px;
+	height: 900px;
 	position: relative;
 	background-color: #fff;
 	overflow: hidden;
@@ -19,9 +19,12 @@
 }
 .whereverYoureLocatedContainer {
 	position: absolute;
-	top: 710px;
-	left: 492px;
+	top: 790px;
+	left: 50%;
+	transform: translateX(-50%);
 	line-height: 23px;
+	white-space: nowrap;
+	text-align: center;
 	flex-shrink: 0;
 }
 .whereverYoureLocated {
@@ -58,7 +61,7 @@
 }
 .frameGroup {
 	width: 1452px;
-	height: 109px;
+	height: 176px;
 	position: relative;
 }
 .eotCraneSolutionsAcrossSouWrapper {
@@ -66,35 +69,36 @@
 	top: 0px;
 	left: 0px;
 	width: 1452px;
-	height: 65px;
+	height: 132px;
 }
 .eotCraneSolutions {
 	position: absolute;
 	top: -0.67px;
-	left: calc(50% - 678px);
+	left: calc(50% - 583.5px);
 	letter-spacing: -1.33px;
 	line-height: 65.33px;
 	display: flex;
 	align-items: center;
-	width: 1356px;
+	justify-content: center;
+	text-align: center;
+	width: 1167px;
 }
 .ourEotCranesServeDiverseIWrapper {
 	position: absolute;
-	top: 82px;
-	left: 272px;
-	width: 908px;
+	top: 149px;
+	left: 50%;
+	transform: translateX(-50%);
 	height: 27px;
 	font-size: 18px;
 	color: #000;
 }
 .ourEotCranes {
-	position: absolute;
-	top: 0px;
-	left: 0px;
+	position: relative;
 	line-height: 27px;
 	display: flex;
 	align-items: center;
-	width: 908px;
+	justify-content: center;
+	white-space: nowrap;
 }
 .frameContainer {
 	align-self: stretch;
@@ -119,6 +123,15 @@
 	width: 257.3px;
 	height: 257.3px;
 	object-fit: cover;
+}
+.frameChildPlaceholder {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 21.33px;
+	width: 257.3px;
+	height: 257.3px;
+	background-color: #d9d9d9;
 }
 .container {
 	position: absolute;
@@ -162,6 +175,19 @@
 	line-height: 21.33px;
 	display: flex;
 	align-items: center;
+}
+.container3Tall {
+	position: absolute;
+	width: calc(100% + 0.3px);
+	top: 58px;
+	right: -0.3px;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-shrink: 0;
+	font-size: 16px;
+	color: #555;
 }
 .rectangleGroup {
 	position: absolute;
@@ -216,6 +242,19 @@
 	font-size: 16px;
 	color: #555;
 }
+.container9Tall {
+	position: absolute;
+	width: calc(100% + 0.3px);
+	top: 58px;
+	right: -0.3px;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-shrink: 0;
+	font-size: 16px;
+	color: #555;
+}
 .frameDiv {
 	position: absolute;
 	top: -0.67px;
@@ -260,7 +299,7 @@
 .container15 {
 	position: absolute;
 	width: calc(100% - 0.3px);
-	top: 53.33px;
+	top: 36.33px;
 	right: 0.3px;
 	left: 0px;
 	display: flex;
@@ -295,6 +334,8 @@
 		position: relative;
 		top: auto;
 		left: auto;
+		transform: none;
+		white-space: normal;
 		width: 100%;
 		text-align: center;
 		margin-top: 24px;
@@ -339,6 +380,7 @@
 		position: relative;
 		top: auto;
 		left: auto;
+		transform: none;
 		width: 100%;
 		height: auto;
 	}
@@ -373,7 +415,7 @@
 		padding: 16px;
 		box-sizing: border-box;
 	}
-	.frameChild, .frameChild2 {
+	.frameChild, .frameChild2, .frameChildPlaceholder {
 		position: relative;
 		width: 100%;
 		height: auto;
@@ -390,7 +432,7 @@
 		flex-direction: column;
 		gap: 8px;
 	}
-	.container2, .container3, .container9, .container14, .container15 {
+	.container2, .container3, .container3Tall, .container9, .container9Tall, .container14, .container15 {
 		position: relative;
 		top: auto;
 		left: auto;

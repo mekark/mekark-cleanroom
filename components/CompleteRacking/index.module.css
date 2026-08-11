@@ -28,103 +28,29 @@
 .frameParentScale {
 	position: relative;
 	width: 903.1px;
-	height: 1046.4px;
+	height: 1314.3px;
 }
 
 .frameParent {
 	position: relative;
-	width: 1062.5px;
-	height: 1231px;
-	transform: scale(0.85);
+	width: 1024px;
+	height: 1490.6px;
+	transform: scale(0.8817);
 	transform-origin: top left;
 }
 
-.frameGroup {
+.timelineLine {
 	position: absolute;
 	top: 78px;
-	left: 38.48px;
-	width: 546px;
-	height: 1059px;
-}
-
-.frameChild {
-	position: absolute;
-	top: 8.37px;
-	left: 9.56px;
-	width: 648.4px;
-	height: 1041px;
-	flex-shrink: 0;
-}
-
-.frameItem {
-	position: absolute;
-	top: 0px;
 	left: 0px;
-	border-radius: 21.51px;
-	background-color: #ebebeb;
-	border: 3.6px solid #e40015;
-	box-sizing: border-box;
-	width: 17.9px;
-	height: 17.9px;
-	flex-shrink: 0;
-}
-
-.frameInner {
-	position: absolute;
-	top: 262.93px;
-	left: 0px;
-	border-radius: 21.51px;
-	background-color: #ebebeb;
-	border: 3.6px solid #e40015;
-	box-sizing: border-box;
-	width: 17.9px;
-	height: 17.9px;
-	flex-shrink: 0;
-}
-
-.rectangleDiv {
-	position: absolute;
-	top: 519.89px;
-	left: 0px;
-	border-radius: 21.51px;
-	background-color: #ebebeb;
-	border: 3.6px solid #e40015;
-	box-sizing: border-box;
-	width: 17.9px;
-	height: 17.9px;
-	flex-shrink: 0;
-}
-
-.frameChild2 {
-	position: absolute;
-	top: 781.63px;
-	left: 0px;
-	border-radius: 21.51px;
-	background-color: #ebebeb;
-	border: 3.6px solid #e40015;
-	box-sizing: border-box;
-	width: 17.9px;
-	height: 17.9px;
-	flex-shrink: 0;
-}
-
-.frameChild3 {
-	position: absolute;
-	top: 1040.97px;
-	left: 0px;
-	border-radius: 21.51px;
-	background-color: #ebebeb;
-	border: 3.6px solid #e40015;
-	box-sizing: border-box;
-	width: 17.9px;
-	height: 17.9px;
-	flex-shrink: 0;
+	width: 397.4px;
+	height: 1320.9px;
 }
 
 .frameContainer {
 	position: absolute;
 	top: 0px;
-	left: 111.48px;
+	left: 73px;
 	border-radius: 19.12px;
 	background-color: #fff;
 	border: 1.2px solid #c0c0c0;
@@ -136,44 +62,25 @@
 
 .frameDiv {
 	position: absolute;
-	top: 37.05px;
-	left: 355.48px;
+	top: 50%;
+	left: 354px;
 	width: 351.4px;
-	height: 120.7px;
-}
-
-.overheadSingleGirderEotCraWrapper {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 326.3px;
-	height: 29.9px;
+	transform: translateY(-50%);
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
 }
 
 .overheadSingleGirder {
-	position: absolute;
-	top: 0px;
-	left: 0px;
+	position: relative;
 	line-height: 29.88px;
 	white-space: nowrap;
 }
 
-.economicalOverheadCraneSystWrapper {
-	position: absolute;
-	top: 38.24px;
-	left: 0px;
-	width: 351.4px;
-	height: 82.5px;
-	font-size: 16px;
-}
-
 .economicalOverheadCrane {
-	position: absolute;
-	top: 0px;
-	left: 0px;
+	position: relative;
+	font-size: 16px;
 	line-height: 27.49px;
-	display: flex;
-	align-items: center;
 	width: 351.4px;
 }
 
@@ -189,7 +96,7 @@
 .rectangleParent {
 	position: absolute;
 	top: 518.69px;
-	left: 111.48px;
+	left: 73px;
 	border-radius: 19.12px;
 	background-color: #fff;
 	border: 1.2px solid #c0c0c0;
@@ -199,48 +106,10 @@
 	overflow: hidden;
 }
 
-.frameParent2 {
-	position: absolute;
-	top: 50.2px;
-	left: 355.48px;
-	width: 351.4px;
-	height: 93.2px;
-}
-
-.underslungEotCranesWrapper {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 326.3px;
-	height: 29.9px;
-	flex-shrink: 0;
-}
-
-.overheadCraneSystemForFaciWrapper {
-	position: absolute;
-	top: 38.24px;
-	left: 0px;
-	width: 351.4px;
-	height: 59.8px;
-	flex-shrink: 0;
-	font-size: 16px;
-}
-
-.overheadCraneSystem {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	line-height: 27.49px;
-	display: flex;
-	align-items: center;
-	width: 370.5px;
-	flex-shrink: 0;
-}
-
 .rectangleGroup {
 	position: absolute;
 	top: 1037.39px;
-	left: 111.48px;
+	left: 73px;
 	border-radius: 19.12px;
 	background-color: #fff;
 	border: 1.2px solid #c0c0c0;
@@ -253,7 +122,7 @@
 .rectangleContainer {
 	position: absolute;
 	top: 259.35px;
-	left: 322.69px;
+	left: 284.2px;
 	border-radius: 19.12px;
 	background-color: #fff;
 	border: 1.2px solid #c0c0c0;
@@ -266,7 +135,7 @@
 .rectangleParent2 {
 	position: absolute;
 	top: 778.04px;
-	left: 322.69px;
+	left: 284.2px;
 	border-radius: 19.12px;
 	background-color: #fff;
 	border: 1.2px solid #c0c0c0;
@@ -276,17 +145,21 @@
 	overflow: hidden;
 }
 
-.yardCranesForHeavyLiftingWrapper {
+.rectangleParent3 {
 	position: absolute;
-	top: 38.24px;
-	left: 0px;
-	width: 351.4px;
-	height: 55px;
-	font-size: 16px;
+	top: 1297px;
+	left: 284.2px;
+	border-radius: 19.12px;
+	background-color: #fff;
+	border: 1.2px solid #c0c0c0;
+	box-sizing: border-box;
+	width: 739.8px;
+	height: 193.6px;
+	overflow: hidden;
 }
 
 .leftStickyOuter {
-	width: 700px;
+	width: 640px;
 	flex-shrink: 0;
 	display: flex;
 	flex-direction: column;
@@ -296,7 +169,7 @@
 
 .leftSticky {
 	position: sticky;
-	top: 100px;
+	top: 166px;
 	font-size: 50px;
 	display: flex;
 	flex-direction: column;
@@ -306,16 +179,16 @@
 .completeEotCrane {
 	position: relative;
 	letter-spacing: -1px;
-	line-height: 52px;
-	font-size: 44px;
+	line-height: 49px;
+	font-size: 40px;
 	display: block;
 	width: 100%;
 }
 
 .asALeading {
 	position: relative;
-	font-size: 18px;
-	line-height: 27px;
+	font-size: 16px;
+	line-height: 25.5px;
 	display: block;
 	width: 100%;
 }
@@ -391,14 +264,15 @@
 		grid-template-columns: repeat(2, 1fr);
 		gap: 24px;
 	}
-	.frameGroup {
+	.timelineLine {
 		display: none;
 	}
-	.frameContainer, 
-	.rectangleParent, 
-	.rectangleGroup, 
-	.rectangleContainer, 
-	.rectangleParent2 {
+	.frameContainer,
+	.rectangleParent,
+	.rectangleGroup,
+	.rectangleContainer,
+	.rectangleParent2,
+	.rectangleParent3 {
 		position: relative;
 		top: auto;
 		left: auto;
@@ -413,40 +287,22 @@
 		height: auto;
 		order: -1;
 	}
-	.frameDiv, 
-	.frameParent2 {
+	.frameDiv {
 		position: relative;
 		top: auto;
 		left: auto;
 		width: 100%;
-		height: auto;
+		transform: none;
 		padding: 24px;
 		box-sizing: border-box;
 	}
-	.overheadSingleGirderEotCraWrapper,
-	.underslungEotCranesWrapper,
-	.economicalOverheadCraneSystWrapper,
-	.overheadCraneSystemForFaciWrapper,
-	.yardCranesForHeavyLiftingWrapper {
-		position: relative;
-		width: 100%;
-		height: auto;
-		top: auto;
-		left: auto;
-	}
 	.overheadSingleGirder,
-	.economicalOverheadCrane,
-	.overheadCraneSystem {
+	.economicalOverheadCrane {
 		position: relative;
 		width: 100%;
 		white-space: normal;
 		top: auto;
 		left: auto;
-	}
-	.economicalOverheadCraneSystWrapper,
-	.overheadCraneSystemForFaciWrapper,
-	.yardCranesForHeavyLiftingWrapper {
-		margin-top: 8px;
 	}
 	.strongEveryContainer {
 		white-space: normal;
@@ -483,13 +339,8 @@
 		font-size: 16px;
 		line-height: 24px;
 	}
-	.economicalOverheadCraneSystWrapper,
-	.overheadCraneSystemForFaciWrapper,
-	.yardCranesForHeavyLiftingWrapper {
+	.economicalOverheadCrane {
 		font-size: 14px;
-	}
-	.economicalOverheadCrane,
-	.overheadCraneSystem {
 		line-height: 20px;
 	}
 	.rectangleIcon {

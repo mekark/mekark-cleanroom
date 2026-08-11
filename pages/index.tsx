@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Hero from "@/components/Hero/Hero";
-import CompleteEOT from "@/components/CompleteEOT/CompleteEOT";
+import CompleteRacking from "@/components/CompleteRacking/CompleteRacking";
 import CTA from "@/components/CTA/CTA";
 import Solutions from "@/components/Solutions/Solutions";
 import Process from "@/components/Process/Process";
@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <CompleteEOT />
+      <CompleteRacking />
       <CTA />
       <Solutions />
       <Process />
