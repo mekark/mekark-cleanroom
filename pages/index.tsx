@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Mekark | EOT Crane Manufacturer</title>
+        <title>Mekark | Clean Room Manufacturer</title>
         <meta
           name="description"
-          content="South India's trusted EOT crane manufacturer, delivering electric overhead travelling cranes engineered for heavy-duty industrial material handling."
+          content="South India's trusted clean room manufacturer, delivering modular clean rooms and contamination-control systems engineered for pharmaceutical, biotechnology, electronics, and precision manufacturing."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Hero />
       <CompleteCleaning />
