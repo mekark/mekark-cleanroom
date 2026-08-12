@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Hero from "@/components/Hero/Hero";
-import CompleteRacking from "@/components/CompleteRacking/CompleteRacking";
+import CompleteCleaning from "@/components/CompleteCleaning/CompleteCleaning";
 import CTA from "@/components/CTA/CTA";
 import Solutions from "@/components/Solutions/Solutions";
 import Process from "@/components/Process/Process";
@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <CompleteRacking />
+      <CompleteCleaning />
       <CTA />
       <Solutions />
       <Process />

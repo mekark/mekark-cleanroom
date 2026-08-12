@@ -14,24 +14,30 @@ const CTA: NextPage = () => {
 			<div className={styles.cta} style={{ transform: `scale(${scale})` }}>
 				<div className={styles.section}>
 					<div className={styles.ourEngineeringTeamCanAssesParent}>
-						<div className={styles.ourEngineeringTeam}>Our engineering team can assess your load capacity, storage volume, and space constraints to recommend the right heavy-duty racking solution, at no cost to you.</div>
+						<div className={styles.ourEngineeringTeam}>Our engineers can evaluate your process needs, cleanliness level, and space limitations in order to determine the best clean room system for you, at no cost.</div>
 						<div className={styles.notSureWhichContainer}>
 							<span className={styles.notSureWhichContainer2}>
-								<span className={styles.notSureWhich}>{`Not Sure Which Pallet Racking System `}</span>
-								<span className={styles.fitsYourFacility}>Fits Your Warehouse?</span>
+								<span className={styles.notSureWhich}>{`Not Sure Which Clean Room Classification `}</span>
+								<span className={styles.fitsYourFacility}>Fits Your Facility?</span>
 							</span>
 						</div>
 					</div>
 					<div className={styles.sectionChild} />
 					<div className={styles.cta2}>
-						<b className={styles.talkToOur}>Talk to Our Racking Engineers</b>
+						<b className={styles.talkToOur}>Talk to Our Experts</b>
 						<div className={styles.component4}>
-							<Image className={styles.vectorIcon} src="/images/cta/arrow.svg" width={31.8} height={25.3} sizes="100vw" alt="" />
+							<Image className={styles.vectorIcon} src="/images/cta/arrow.svg" width={20.2} height={16.1} sizes="100vw" alt="" />
 						</div>
 					</div>
 					<Image className={styles.sectionItem} src="/images/cta/grid-circle.svg" width={180} height={180} sizes="100vw" alt="" />
 					<Image className={styles.sectionInner} src="/images/cta/glow-blob.svg" width={317} height={213} sizes="100vw" alt="" />
 					<Image className={styles.eotCta1} src="/images/cta/eot-cta-1.png" width={443} height={292} sizes="100vw" alt="" />
+				</div>
+				<div className={styles.image12Parent}>
+					<div className={styles.image12Crop}>
+						<Image className={styles.image12Icon} src="/images/cta/cleanroom-facility.png" width={1282} height={569} sizes="100vw" alt="" />
+					</div>
+					<div className={styles.frameChild} />
 				</div>
 				<div className={styles.frameParent}>
 					<div className={styles.component22Parent}>
@@ -41,7 +47,7 @@ const CTA: NextPage = () => {
 									<b className={styles.turnkeyWarehouseConstruction}>Custom-Engineered Design</b>
 								</div>
 								<div className={styles.singlePointResponsibilityFrWrapper}>
-									<div className={styles.singlePointResponsibilityFr}>Each pallet racking system is tailor-made for your specific load capacity, pallet type, and warehouse layout.</div>
+									<div className={styles.singlePointResponsibilityFr}>Your clean room is designed specifically to meet your particular requirements regarding cleanliness, process flow, and plant layout.</div>
 								</div>
 							</div>
 							<div className={styles.divsvcIcon}>
@@ -51,10 +57,10 @@ const CTA: NextPage = () => {
 						<div className={styles.component26}>
 							<div className={styles.frameContainer}>
 								<div className={styles.higherLoadEfficiencyWrapper}>
-									<b className={styles.higherLoadEfficiency}>Higher Storage Density</b>
+									<b className={styles.higherLoadEfficiency}>Superior Contamination Control</b>
 								</div>
 								<div className={styles.theOptimisedGirderDesignEnWrapper}>
-									<div className={styles.theOptimisedGirder}>Optimised bay and beam design ensures you get more storage capacity from the same warehouse footprint.</div>
+									<div className={styles.theOptimisedGirder}>Optimised HVAC design and HEPA filtration ensure consistent particle counts and stable pressure cascades across your clean room facility.</div>
 								</div>
 							</div>
 							<div className={styles.divsvcIcon}>
@@ -67,7 +73,7 @@ const CTA: NextPage = () => {
 									<b className={styles.precisionFabrication}>Precision Fabrication</b>
 								</div>
 								<div className={styles.cncFabricatedPrecisionWeldWrapper}>
-									<div className={styles.singlePointResponsibilityFr}>CNC-fabricated, roll-formed steel sections ensure consistent tolerances and structural integrity, eliminating weak points common in manually fabricated MS pallet racks.</div>
+									<div className={styles.singlePointResponsibilityFr}>The factory-fabricated modular panels guarantee airtight seals and structure and eliminate the contamination problems associated with site-built clean rooms.</div>
 								</div>
 							</div>
 							<div className={styles.divsvcIcon}>
@@ -80,7 +86,7 @@ const CTA: NextPage = () => {
 									<b className={styles.maintenanceAndAfterSales}>Maintenance and After-Sales Support</b>
 								</div>
 								<div className={styles.weProvideMaintenanceAndAmcWrapper}>
-									<div className={styles.weProvideMaintenance}>We provide rack inspection and AMC support across South India to ensure your industrial storage racks remain safe and stable for years after installation.</div>
+									<div className={styles.weProvideMaintenance}>Clean Room Validation, Requalification, and AMC are provided throughout South India, ensuring that your controlled environments are compliant years after installation.</div>
 								</div>
 							</div>
 							<div className={styles.divsvcIcon}>
@@ -90,10 +96,10 @@ const CTA: NextPage = () => {
 						<div className={styles.component25}>
 							<div className={styles.frameGroup}>
 								<div className={styles.safetyCompliantWrapper}>
-									<b className={styles.safetyCompliant}>Safety Compliant</b>
+									<b className={styles.safetyCompliant}>Regulatory Compliant</b>
 								</div>
 								<div className={styles.singlePointResponsibilityFrWrapper}>
-									<div className={styles.singlePointResponsibilityFr}>Our heavy-duty racking systems meet IS 807 and MHE code specifications for load rating, seismic bracing, and safety accessories such as column guards and beam locks.</div>
+									<div className={styles.singlePointResponsibilityFr}>Our clean room systems meet ISO 14644, GMP, and WHO-GMP specifications for cleanliness class, air change rates, and pressure differentials.</div>
 								</div>
 							</div>
 							<div className={styles.divsvcIcon}>
@@ -103,10 +109,10 @@ const CTA: NextPage = () => {
 						<div className={styles.component29}>
 							<div className={styles.frameParent4}>
 								<div className={styles.longLastingCranesWrapper}>
-									<b className={styles.longLastingCranes}>Long-lasting Racking Systems</b>
+									<b className={styles.longLastingCranes}>Long-lasting Clean Room Systems</b>
 								</div>
 								<div className={styles.mekarksEotCranesAreEngineWrapper}>
-									<div className={styles.mekarksEotCranes}>Mekark&apos;s heavy-duty racks are engineered to operate continuously under industrial load for over X+ years.</div>
+									<div className={styles.mekarksEotCranes}>The clean rooms at Mekark are designed to guarantee cleanliness performance under continuous industrial and pharmaceutical operations for more than X+ years.</div>
 								</div>
 							</div>
 							<div className={styles.divsvcIcon}>
@@ -116,22 +122,17 @@ const CTA: NextPage = () => {
 					</div>
 					<div className={styles.frameParent5}>
 						<div className={styles.whyEotCranesFromMekarkAreWrapper}>
-							<b className={styles.whyEotCranes}>Engineered to Outperform. Built to Outlast.</b>
+							<b className={styles.whyEotCranes}>Why Clean Rooms from Mekark are the Better Choice</b>
 						</div>
-						<div className={styles.mekarkIsA}>Mekark is a leading heavy-duty racking manufacturer in South India, building industrial storage racks and pallet racking systems engineered for load performance, safety, and long-term structural reliability.</div>
+						<div className={styles.mekarkIsA}>Mekark is one of the best clean room manufacturers in South India. They manufacture modular clean rooms and contamination control equipment.</div>
 					</div>
 					<div className={styles.overlayborder}>
 						<div className={styles.strongEveryContainer}>
-							<i className={styles.theDifferenceIsnt}>{`The difference isn't just how much a racking system holds; it's `}</i>
-							<b className={styles.howLongIt}>how long it holds it safely</b>
+							<i className={styles.theDifferenceIsnt}>{`The difference isn't just how a clean room performs on day one; `}</i>
+							<b className={styles.howLongIt}>it&apos;s how long it stays compliant</b>
 							<i className={styles.theDifferenceIsnt}>. That&apos;s the engineering standard Mekark builds to.</i>
 						</div>
 					</div>
-				</div>
-				<div className={styles.image12Parent}>
-					<Image className={styles.image12Icon} src="/images/cta/image-12.png" width={856} height={563} sizes="100vw" alt="" />
-					<Image className={styles.crane1Icon} src="/images/cta/crane-1.png" width={850} height={571} sizes="100vw" alt="" />
-					<div className={styles.frameChild} />
 				</div>
 			</div>
 		</div>

@@ -66,7 +66,7 @@
 	line-height: 50.52px;
 }
 .fitsYourFacility {
-	color: #000;
+	color: #212121;
 	line-height: 50.52px;
 }
 .sectionChild {
@@ -84,16 +84,16 @@
 	height: calc(100% - 185px);
 	top: 92px;
 	bottom: 93px;
-	left: 1188px;
+	left: 1254px;
 	border-radius: 57340092px;
 	background-color: #fff;
-	width: 422px;
+	width: 365px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 20.5px 34.2px;
 	box-sizing: border-box;
-	gap: 8px;
+	gap: 13.7px;
 	flex-shrink: 0;
 	font-size: 22.73px;
 	color: #0e0e0e;
@@ -104,8 +104,8 @@
 	white-space: nowrap;
 }
 .component4 {
-	height: 42px;
-	width: 42px;
+	height: 26.65px;
+	width: 26.65px;
 	position: relative;
 	overflow: hidden;
 	flex-shrink: 0;
@@ -171,7 +171,7 @@
 	top: 0px;
 	left: 0px;
 	border-radius: 21.57px 0px 0px 0px;
-	background-color: #f6f6f6;
+	background-color: transparent;
 	width: 296.6px;
 	height: 241.6px;
 	overflow: hidden;
@@ -237,7 +237,7 @@
 	top: 242.68px;
 	left: 0px;
 	border-radius: 0px 0px 0px 21.57px;
-	background-color: #f6f6f6;
+	background-color: transparent;
 	width: 296.6px;
 	height: 241.6px;
 	overflow: hidden;
@@ -252,10 +252,10 @@
 }
 .higherLoadEfficiencyWrapper {
 	position: absolute;
-	top: -0.27px;
+	top: -4.92px;
 	left: -0.41px;
-	width: 254px;
-	height: 21px;
+	width: 256px;
+	height: 44px;
 }
 .higherLoadEfficiency {
 	position: absolute;
@@ -268,7 +268,7 @@
 }
 .theOptimisedGirderDesignEnWrapper {
 	position: absolute;
-	top: 39.73px;
+	top: 50.73px;
 	left: 0px;
 	width: 277.2px;
 	height: 58.2px;
@@ -289,7 +289,7 @@
 	position: absolute;
 	top: 0px;
 	left: 297.69px;
-	background-color: #f6f6f6;
+	background-color: transparent;
 	width: 296.6px;
 	height: 241.6px;
 	overflow: hidden;
@@ -326,7 +326,7 @@
 	position: absolute;
 	top: 242.68px;
 	left: 297.69px;
-	background-color: #f6f6f6;
+	background-color: transparent;
 	width: 296.6px;
 	height: 241.6px;
 	overflow: hidden;
@@ -375,7 +375,7 @@
 	top: 0px;
 	right: -1.06px;
 	border-radius: 0px 21.57px 0px 0px;
-	background-color: #f6f6f6;
+	background-color: transparent;
 	width: 296.6px;
 	height: 241.6px;
 	overflow: hidden;
@@ -403,7 +403,7 @@
 	top: 242.68px;
 	right: -1.06px;
 	border-radius: 0px 0px 21.57px 0px;
-	background-color: #f6f6f6;
+	background-color: transparent;
 	width: 296.6px;
 	height: 241.6px;
 	overflow: hidden;
@@ -481,28 +481,29 @@
 .mekarkIsA {
 	position: absolute;
 	top: 84px;
-	left: calc(50% - 576px);
+	left: calc(50% - 625px);
 	font-size: 18px;
 	line-height: 27px;
 	color: #000;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 1153px;
+	width: 1250px;
+	white-space: nowrap;
 }
 .overlayborder {
 	position: absolute;
 	top: 758px;
-	left: calc(50% - 654.5px);
-	border-radius: 12px;
+	left: calc(50% - 685.5px);
+	border-radius: 40px;
 	background-color: rgba(228, 0, 21, 0.05);
 	border: 0.5px solid rgba(228, 0, 21, 0.5);
 	box-sizing: border-box;
-	width: 1309px;
+	width: 1371px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 24px 32px;
+	padding: 24.5px 32.5px;
 	color: #4c4c4c;
 	font-family: var(--font-montserrat), sans-serif;
 }
@@ -511,7 +512,7 @@
 	position: relative;
 	letter-spacing: -0.02em;
 	line-height: 23.76px;
-	white-space: nowrap;
+	white-space: normal;
 	text-align: center;
 }
 .theDifferenceIsnt {
@@ -519,41 +520,39 @@
 	line-height: 23.76px;
 }
 .howLongIt {
-	color: #e40015;
+	color: #f01d23;
 	line-height: 23.76px;
 }
 .image12Parent {
 	position: absolute;
-	top: 560px;
+	top: 580px;
 	left: 1064px;
 	width: 856px;
 	height: 571px;
 }
+.image12Crop {
+	position: absolute;
+	left: -426px;
+	top: 0px;
+	width: 1282px;
+	height: 569px;
+}
 .image12Icon {
 	position: absolute;
 	right: 0px;
-	bottom: 8px;
-	width: 856px;
-	height: 563px;
-	object-fit: cover;
-	flex-shrink: 0;
-}
-.crane1Icon {
-	position: absolute;
 	top: 0px;
-	right: 0px;
-	width: 850px;
-	height: 571px;
+	width: 1282px;
+	height: 569px;
 	object-fit: cover;
 	flex-shrink: 0;
 }
 .frameChild {
 	position: absolute;
-	top: 0px;
-	left: -18px;
-	background: linear-gradient(269.87deg, rgba(246, 246, 246, 0), #f6f6f6);
-	width: 377px;
-	height: 563px;
+	left: -450px;
+	top: -10px;
+	width: 850px;
+	height: 589px;
+	background: linear-gradient(90deg, #f6f6f6 0%, #f6f6f6 5%, rgba(246, 246, 246, 0) 100%);
 	flex-shrink: 0;
 }
 
@@ -671,6 +670,7 @@
 		height: auto;
 		justify-content: flex-start;
 		text-align: left;
+		white-space: normal;
 	}
 	.component22Parent {
 		position: relative;

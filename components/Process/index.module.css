@@ -28,7 +28,7 @@
 }
 .frameParent {
 	position: absolute;
-	top: 107px;
+	top: 60px;
 	left: calc(50% - 866px);
 	width: 1732px;
 	height: 393px;
@@ -46,7 +46,7 @@
 .howWeDeliver {
 	position: absolute;
 	top: 0.33px;
-	left: calc(50% - 533px);
+	left: calc(50% - 434.5px);
 	letter-spacing: -1.33px;
 	line-height: 65.33px;
 	display: flex;
@@ -54,7 +54,7 @@
 	justify-content: center;
 	text-align: center;
 	white-space: nowrap;
-	width: 1066px;
+	width: 869px;
 	flex-shrink: 0;
 }
 .frameGroup {
@@ -141,6 +141,19 @@
 	position: absolute;
 	width: 100%;
 	top: 53.33px;
+	right: 0px;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-shrink: 0;
+	font-size: 16px;
+	color: #555;
+}
+.container5 {
+	position: absolute;
+	width: 100%;
+	top: 36px;
 	right: 0px;
 	left: 0px;
 	display: flex;
@@ -237,7 +250,7 @@
 		flex-direction: column;
 		gap: 8px;
 	}
-	.container2, .container3, .container9 {
+	.container2, .container3, .container9, .container5 {
 		position: relative;
 		top: auto;
 		left: auto;

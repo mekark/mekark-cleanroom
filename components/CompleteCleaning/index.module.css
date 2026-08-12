@@ -73,24 +73,28 @@
 
 .overheadSingleGirder {
 	position: relative;
+	font-size: 18px;
 	line-height: 29.88px;
+	color: #000;
 	white-space: nowrap;
 }
 
 .economicalOverheadCrane {
 	position: relative;
 	font-size: 16px;
-	line-height: 27.49px;
+	line-height: 23px;
+	color: #000;
 	width: 351.4px;
 }
 
 .rectangleIcon {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: -1.2px;
+	left: -1.2px;
 	width: 322.7px;
 	height: 193.6px;
 	object-fit: cover;
+	border-radius: 19.12px 0 0 19.12px;
 }
 
 .rectangleParent {
@@ -159,12 +163,12 @@
 }
 
 .leftStickyOuter {
-	width: 640px;
+	width: 660px;
 	flex-shrink: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	padding-top: 190px;
+	padding-top: 220px;
 }
 
 .leftSticky {
@@ -179,7 +183,7 @@
 .completeEotCrane {
 	position: relative;
 	letter-spacing: -1px;
-	line-height: 49px;
+	line-height: 50px;
 	font-size: 40px;
 	display: block;
 	width: 100%;
@@ -188,7 +192,8 @@
 .asALeading {
 	position: relative;
 	font-size: 16px;
-	line-height: 25.5px;
+	font-weight: 300;
+	line-height: 24px;
 	display: block;
 	width: 100%;
 }
@@ -196,45 +201,48 @@
 .overlayborder {
 	position: relative;
 	margin: 64px auto 0;
-	border-radius: 12px;
+	border-radius: 40px;
 	background-color: rgba(228, 0, 21, 0.05);
 	border: 0.5px solid rgba(228, 0, 21, 0.5);
 	box-sizing: border-box;
-	width: 100%;
-	max-width: 1760px;
+	width: fit-content;
+	max-width: 1080px;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	padding: 24px 32px;
-	color: #e40015;
+	align-items: center;
+	padding: 20px 84px;
+	color: #ec2d40;
 }
 
 .strongEveryContainer {
 	width: 100%;
 	position: relative;
-	line-height: 23.76px;
+	line-height: 22px;
 	display: flex;
 	align-items: center;
-	font-size: 15px;
-	white-space: nowrap;
+	justify-content: center;
+	font-size: 16px;
+	white-space: normal;
+	text-align: center;
 }
 
 .strongEveryContainer2 {
 	width: 100%;
+	text-align: center;
 }
 
 .everyEotCrane {
-	line-height: 23.76px;
+	line-height: 22px;
 }
 
 .aroundYourLoadRequirements {
-	line-height: 23.76px;
+	line-height: 22px;
 	color: #4c4c4c;
 }
 
 .span {
 	color: #8b91a0;
-	line-height: 23.76px;
+	line-height: 22px;
 }
 
 @media (max-width: 1200px) {
@@ -283,9 +291,12 @@
 	}
 	.rectangleIcon {
 		position: relative;
+		top: 0;
+		left: 0;
 		width: 100%;
 		height: auto;
 		order: -1;
+		border-radius: 19.12px 19.12px 0 0;
 	}
 	.frameDiv {
 		position: relative;

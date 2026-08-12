@@ -19,12 +19,13 @@
 }
 .whereverYoureLocatedContainer {
 	position: absolute;
-	top: 790px;
+	top: 760px;
 	left: 50%;
 	transform: translateX(-50%);
 	line-height: 23px;
-	white-space: nowrap;
+	white-space: normal;
 	text-align: center;
+	width: 1013px;
 	flex-shrink: 0;
 }
 .whereverYoureLocated {
@@ -53,7 +54,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 66.7px;
+	gap: 46px;
 	flex-shrink: 0;
 	text-align: left;
 	font-size: 50px;
@@ -61,7 +62,7 @@
 }
 .frameGroup {
 	width: 1452px;
-	height: 176px;
+	height: 109px;
 	position: relative;
 }
 .eotCraneSolutionsAcrossSouWrapper {
@@ -69,23 +70,23 @@
 	top: 0px;
 	left: 0px;
 	width: 1452px;
-	height: 132px;
+	height: 65px;
 }
 .eotCraneSolutions {
 	position: absolute;
 	top: -0.67px;
-	left: calc(50% - 583.5px);
+	left: calc(50% - 713.5px);
 	letter-spacing: -1.33px;
-	line-height: 65.33px;
+	line-height: 61px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	width: 1167px;
+	width: 1427px;
 }
 .ourEotCranesServeDiverseIWrapper {
 	position: absolute;
-	top: 149px;
+	top: 75px;
 	left: 50%;
 	transform: translateX(-50%);
 	height: 27px;
@@ -124,16 +125,7 @@
 	height: 257.3px;
 	object-fit: cover;
 }
-.frameChildPlaceholder {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 21.33px;
-	width: 257.3px;
-	height: 257.3px;
-	background-color: #d9d9d9;
-}
-.container {
+.card1Text {
 	position: absolute;
 	top: 292px;
 	left: 0px;
@@ -156,10 +148,10 @@
 	position: relative;
 	line-height: 21.33px;
 }
-.container3 {
+.card1Desc {
 	position: absolute;
 	width: calc(100% + 0.3px);
-	top: 36.33px;
+	top: 53px;
 	right: -0.3px;
 	left: 0px;
 	display: flex;
@@ -175,19 +167,6 @@
 	line-height: 21.33px;
 	display: flex;
 	align-items: center;
-}
-.container3Tall {
-	position: absolute;
-	width: calc(100% + 0.3px);
-	top: 58px;
-	right: -0.3px;
-	left: 0px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	flex-shrink: 0;
-	font-size: 16px;
-	color: #555;
 }
 .rectangleGroup {
 	position: absolute;
@@ -211,28 +190,10 @@
 	align-items: center;
 	flex-shrink: 0;
 }
-.rectangleContainer {
-	position: absolute;
-	top: -0.67px;
-	left: 580px;
-	width: 257px;
-	height: 384px;
-}
-.container7 {
-	position: absolute;
-	top: 292px;
-	left: 0px;
-	width: 257px;
-	height: 80px;
-}
-.powerPlants {
-	position: relative;
-	line-height: 26.87px;
-}
-.container9 {
+.card2Desc {
 	position: absolute;
 	width: calc(100% + 0.3px);
-	top: 36.69px;
+	top: 40px;
 	right: -0.3px;
 	left: 0px;
 	display: flex;
@@ -242,10 +203,28 @@
 	font-size: 16px;
 	color: #555;
 }
-.container9Tall {
+.rectangleContainer {
+	position: absolute;
+	top: -0.67px;
+	left: 580px;
+	width: 257px;
+	height: 384px;
+}
+.card3Text {
+	position: absolute;
+	top: 292px;
+	left: 0px;
+	width: 257px;
+	height: 97px;
+}
+.powerPlants {
+	position: relative;
+	line-height: 21.33px;
+}
+.card3Desc {
 	position: absolute;
 	width: calc(100% + 0.3px);
-	top: 58px;
+	top: 53px;
 	right: -0.3px;
 	left: 0px;
 	display: flex;
@@ -296,10 +275,10 @@
 	align-items: flex-start;
 	flex-shrink: 0;
 }
-.container15 {
+.card5Desc {
 	position: absolute;
 	width: calc(100% - 0.3px);
-	top: 36.33px;
+	top: 53px;
 	right: 0.3px;
 	left: 0px;
 	display: flex;
@@ -315,6 +294,19 @@
 	left: 1449px;
 	width: 258px;
 	height: 389px;
+}
+.card6Desc {
+	position: absolute;
+	width: calc(100% + 0.3px);
+	top: 53px;
+	right: -0.3px;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-shrink: 0;
+	font-size: 16px;
+	color: #555;
 }
 
 @media (max-width: 1200px) {
@@ -415,14 +407,14 @@
 		padding: 16px;
 		box-sizing: border-box;
 	}
-	.frameChild, .frameChild2, .frameChildPlaceholder {
+	.frameChild, .frameChild2 {
 		position: relative;
 		width: 100%;
 		height: auto;
 		aspect-ratio: 1;
 		object-fit: cover;
 	}
-	.container, .container4, .container7, .container13 {
+	.card1Text, .container4, .card3Text, .container13 {
 		position: relative;
 		top: auto;
 		left: auto;
@@ -432,7 +424,7 @@
 		flex-direction: column;
 		gap: 8px;
 	}
-	.container2, .container3, .container3Tall, .container9, .container9Tall, .container14, .container15 {
+	.container2, .card1Desc, .card2Desc, .card3Desc, .card5Desc, .card6Desc, .container14 {
 		position: relative;
 		top: auto;
 		left: auto;

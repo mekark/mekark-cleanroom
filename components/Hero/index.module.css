@@ -86,18 +86,19 @@
 	font-weight: 500;
 }
 .h1text5xl {
-	width: 1066px;
+	width: 863px;
 	height: 136px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	flex-shrink: 0;
 	font-size: 60px;
+	margin-top: 14px;
 }
 .engineeredForLoad {
-	width: 1066px;
+	width: 863px;
 	position: relative;
-	letter-spacing: -1px;
+	letter-spacing: normal;
 	line-height: 66px;
 	display: flex;
 	align-items: center;
@@ -109,15 +110,17 @@
 	flex-shrink: 0;
 	font-size: 50px;
 	color: #c4161c;
+	margin-top: -8px;
+	margin-bottom: -8px;
 }
 .frameChild {
 	position: absolute;
-	top: -0.47px;
-	left: 0.03px;
+	top: 2.53px;
+	left: -0.03px;
 	background-color: #fff;
-	width: 864.2px;
+	width: 1049.83px;
 	height: 60px;
-	transform: rotate(0.1deg);
+	transform: rotate(0.06deg);
 	transform-origin: 0 0;
 	flex-shrink: 0;
 }
@@ -130,7 +133,7 @@
 	flex-shrink: 0;
 }
 .ptextLgWrapper {
-	width: 1052px;
+	width: 1115px;
 	height: 134px;
 	position: relative;
 	flex-shrink: 0;
@@ -141,16 +144,18 @@
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	width: 1052px;
+	width: 1115px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	max-width: 1052px;
+	max-width: 1115px;
 }
 .southIndiasTrustedContainer {
-	width: 1052px;
+	width: 1115px;
 	position: relative;
 	line-height: 33.33px;
+	letter-spacing: normal;
+	color: rgba(255, 255, 255, 0.7);
 	display: flex;
 	align-items: center;
 }
@@ -159,6 +164,8 @@
 }
 .southIndiasTrusted {
 	line-height: 33.33px;
+	letter-spacing: normal;
+	color: rgba(255, 255, 255, 0.7);
 }
 .cta {
 	align-self: stretch;
@@ -167,28 +174,32 @@
 	flex-shrink: 0;
 	font-size: 21.33px;
 	font-family: var(--font-inter), sans-serif;
+	margin-top: -12px;
 }
 .component5 {
 	position: absolute;
-	top: calc(50% - 39.98px);
+	top: calc(50% - 41px);
 	left: 0px;
 	box-shadow: 0px 10.666666984558105px 42.67px rgba(196, 22, 28, 0.3);
 	border-radius: 10.67px;
 	background-color: #c4161c;
 	display: flex;
 	align-items: center;
-	padding: 24px 48px;
-	gap: 13.3px;
+	padding: 23px 46px;
+	gap: 5px;
 	flex-shrink: 0;
 }
 .text {
 	position: relative;
-	line-height: 32px;
+	line-height: 33px;
+	font-size: 21.3px;
 	font-weight: 600;
+	letter-spacing: normal;
+	color: #fff;
 }
 .component4 {
-	height: 40px;
-	width: 40px;
+	height: 36px;
+	width: 36px;
 	position: relative;
 	overflow: hidden;
 	flex-shrink: 0;

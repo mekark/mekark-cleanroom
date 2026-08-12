@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Image from "next/image";
+import { Phone } from "lucide-react";
 import { useDesignScale } from "@/hooks/useDesignScale";
 import styles from './index.module.css';
 
@@ -11,12 +12,15 @@ const FinalCTA: NextPage = () => {
 	return (
 		<div className={styles.sectionWrapper} style={{ height: DESIGN_HEIGHT * scale }}>
 			<div className={styles.section} style={{ transform: `scale(${scale})` }}>
+				<div className={styles.phoneIcon}>
+					<Phone size={38.4} color="#8b0c11" />
+				</div>
 				<div className={styles.readyToEngineerYourIdealEParent}>
-					<div className={styles.readyToEngineer}>Ready to Engineer Your Ideal Heavy Duty Racking System?</div>
+					<div className={styles.readyToEngineer}>Ready to Engineer Your Ideal Clean Room Facility?</div>
 					<div className={styles.partnerWithMekarkSouth}>
-						Partner with Mekark, South India&apos;s trusted heavy-duty racking manufacturer, for <br />
-						precision-engineered, safety-certified pallet racking systems built for your <br />
-						industry&apos;s toughest load demands.
+						Partner with Mekark, South India&apos;s trusted clean room manufacturer, for precision-<br />
+						engineered, compliance-certified modular clean room solutions built for your industry&apos;s<br />
+						toughest contamination-control demands.
 					</div>
 				</div>
 				<div className={styles.cta}>
@@ -25,7 +29,6 @@ const FinalCTA: NextPage = () => {
 						<Image className={styles.vectorIcon} src="/images/footer/arrow.svg" width={25} height={20.1} sizes="100vw" alt="" />
 					</div>
 				</div>
-				<Image className={styles.carenCta1} src="/images/footer/caren-cta-1.png" width={388} height={281} sizes="100vw" alt="" />
 			</div>
 		</div>
 	);
