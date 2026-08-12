@@ -1,3 +1,9 @@
+:root {
+	--font-inter: "Inter Variable";
+	--font-manrope: "Manrope Variable";
+	--font-montserrat: "Montserrat Variable";
+}
+
 body {
 	margin: 0;
 	line-height: normal;
