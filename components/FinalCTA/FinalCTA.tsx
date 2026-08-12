@@ -25,7 +25,7 @@ const FinalCTA: NextPage = () => {
 						<Image className={styles.vectorIcon} src="/images/footer/arrow.svg" width={25} height={20.1} sizes="100vw" alt="" />
 					</div>
 				</div>
-				<Image className={styles.carenCta1} src="/images/footer/updated/Caren cta 1.png" width={352} height={280} sizes="100vw" alt="" />
+				<Image className={styles.carenCta1} src="/images/footer/caren-cta-1.png" width={388} height={281} sizes="100vw" alt="" />
 			</div>
 		</div>
 	);

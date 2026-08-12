@@ -17,7 +17,7 @@
 .readyToEngineerYourIdealEParent {
 	position: absolute;
 	top: calc(50% - 95px);
-	left: 388px;
+	left: 410px;
 	width: 1076px;
 	height: 190px;
 	flex-shrink: 0;
@@ -95,7 +95,7 @@
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	width: 352px;
+	width: 388px;
 	height: 100%;
 	object-fit: cover;
 	flex-shrink: 0;
