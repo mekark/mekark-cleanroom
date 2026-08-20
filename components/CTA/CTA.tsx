@@ -26,11 +26,11 @@ const CTA: NextPage = () => {
 					<div className={styles.cta2}>
 						<b className={styles.talkToOur}>Talk to Our Experts</b>
 						<div className={styles.component4}>
-							<Image className={styles.vectorIcon} src="/images/cta/arrow.svg" width={20.2} height={16.1} sizes="100vw" alt="" />
+							<Image className={styles.vectorIcon} src="/images/cta/arrow.svg" width={20.2} height={16.1} sizes="100vw" alt="" unoptimized />
 						</div>
 					</div>
-					<Image className={styles.sectionItem} src="/images/cta/grid-circle.svg" width={180} height={180} sizes="100vw" alt="" />
-					<Image className={styles.sectionInner} src="/images/cta/glow-blob.svg" width={317} height={213} sizes="100vw" alt="" />
+					<Image className={styles.sectionItem} src="/images/cta/grid-circle.svg" width={180} height={180} sizes="100vw" alt="" unoptimized />
+					<Image className={styles.sectionInner} src="/images/cta/glow-blob.svg" width={317} height={213} sizes="100vw" alt="" unoptimized />
 					<Image className={styles.eotCta1} src="/images/cta/eot-cta-1.png" width={443} height={292} sizes="100vw" alt="" />
 				</div>
 				<div className={styles.image12Parent}>

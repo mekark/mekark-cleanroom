@@ -15,7 +15,7 @@ const CompleteCleanRoomSolutionsEngineeredEndToEnd: NextPage = () => {
 				<div className={styles.rightScrollable}>
 					<div className={styles.frameParentScale}>
 						<div className={styles.frameParent}>
-							<Image className={styles.timelineLine} src="/images/complete-eot/timeline.svg" width={397.4} height={1320.9} sizes="100vw" alt="" />
+							<Image className={styles.timelineLine} src="/images/complete-eot/timeline.svg" width={397.4} height={1320.9} sizes="100vw" alt="" unoptimized />
 							<div className={styles.frameContainer}>
 								<Image className={styles.rectangleIcon} src="/images/complete-eot/modular-clean-room-panels.png" width={322.7} height={193.6} sizes="100vw" alt="" />
 								<div className={styles.frameDiv}>

@@ -29,8 +29,8 @@ const Process: NextPage = () => {
 									<div className={styles.weEvaluateYour}>We evaluate your facility layout and cleanliness class requirements to define the ideal clean room specification.</div>
 								</div>
 							</div>
-							<Image className={styles.frameItem} src="/images/process/line.svg" width={66.7} height={19.6} sizes="100vw" alt="" />
-							<Image className={styles.tablerclipboardSearchIcon} src="/images/process/clipboard-search.svg" width={40} height={40} sizes="100vw" alt="" />
+							<Image className={styles.frameItem} src="/images/process/line.svg" unoptimized width={66.7} height={19.6} sizes="100vw" alt="" />
+							<Image className={styles.tablerclipboardSearchIcon} src="/images/process/clipboard-search.svg" width={40} height={40} sizes="100vw" alt="" unoptimized />
 						</div>
 						<div className={styles.rectangleParent}>
 							<div className={styles.frameChild} />
@@ -42,7 +42,7 @@ const Process: NextPage = () => {
 									<div className={styles.weEvaluateYour}>HVAC and layout modelling optimise your clean room for contamination control, compliance, and efficiency</div>
 								</div>
 							</div>
-							<Image className={styles.frameItem} src="/images/process/line.svg" width={66.7} height={19.6} sizes="100vw" alt="" />
+							<Image className={styles.frameItem} src="/images/process/line.svg" unoptimized width={66.7} height={19.6} sizes="100vw" alt="" />
 							<div className={styles.tablerclipboardSearchIcon}>
 								<DraftingCompass size={40} color={ICON_COLOR} />
 							</div>
@@ -57,7 +57,7 @@ const Process: NextPage = () => {
 									<div className={styles.weEvaluateYour}>Every clean room panel is factory-fabricated and tested for airtightness and structural integrity.</div>
 								</div>
 							</div>
-							<Image className={styles.frameChild2} src="/images/process/line.svg" width={66.7} height={19.6} sizes="100vw" alt="" />
+							<Image className={styles.frameChild2} src="/images/process/line.svg" unoptimized width={66.7} height={19.6} sizes="100vw" alt="" />
 							<div className={styles.tablerclipboardSearchIcon}>
 								<Factory size={40} color={ICON_COLOR} />
 							</div>
@@ -72,7 +72,7 @@ const Process: NextPage = () => {
 									<div className={styles.weEvaluateYour}>Certified teams handle on-site erection and commissioning across South India under strict quality protocols.</div>
 								</div>
 							</div>
-							<Image className={styles.frameItem} src="/images/process/line.svg" width={66.7} height={19.6} sizes="100vw" alt="" />
+							<Image className={styles.frameItem} src="/images/process/line.svg" unoptimized width={66.7} height={19.6} sizes="100vw" alt="" />
 							<div className={styles.tablerclipboardSearchIcon}>
 								<HardHat size={40} color={ICON_COLOR} />
 							</div>
@@ -87,7 +87,7 @@ const Process: NextPage = () => {
 									<div className={styles.weEvaluateYour}>Each clean room is validated for particle count, air change rate, and pressure differential per ISO 14644 standards.</div>
 								</div>
 							</div>
-							<Image className={styles.frameItem} src="/images/process/line.svg" width={66.7} height={19.6} sizes="100vw" alt="" />
+							<Image className={styles.frameItem} src="/images/process/line.svg" unoptimized width={66.7} height={19.6} sizes="100vw" alt="" />
 							<div className={styles.tablerclipboardSearchIcon}>
 								<BadgeCheck size={40} color={ICON_COLOR} />
 							</div>

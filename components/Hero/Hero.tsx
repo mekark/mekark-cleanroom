@@ -40,7 +40,7 @@ const Hero: NextPage = () => {
 						<div className={styles.component5}>
 							<div className={styles.text}>  Get a Free Consultation</div>
 							<div className={styles.component4}>
-								<Image className={styles.vectorIcon} src="/images/hero/component-4.svg" width={24.9} height={20} sizes="100vw" alt="" />
+								<Image className={styles.vectorIcon} src="/images/hero/component-4.svg" width={24.9} height={20} sizes="100vw" alt="" unoptimized />
 							</div>
 						</div>
 					</div>

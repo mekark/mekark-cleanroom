@@ -51,7 +51,7 @@ const faqs = [
 
 const Chevron = ({ isOpen }: { isOpen: boolean }) => (
 	<div className={`${styles.component1} ${isOpen ? styles.iconOpen : styles.iconClosed}`}>
-		<Image className={styles.vectorIcon} src="/images/faq/chevron.svg" width={16.6} height={16.6} sizes="100vw" alt="" />
+		<Image className={styles.vectorIcon} src="/images/faq/chevron.svg" width={16.6} height={16.6} sizes="100vw" alt="" unoptimized />
 	</div>
 );
 

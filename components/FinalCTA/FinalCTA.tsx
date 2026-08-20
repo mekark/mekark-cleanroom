@@ -26,7 +26,7 @@ const FinalCTA: NextPage = () => {
 				<div className={styles.cta}>
 					<b className={styles.requestAFree}>Request a Free Site Assessment</b>
 					<div className={styles.component4}>
-						<Image className={styles.vectorIcon} src="/images/footer/arrow.svg" width={25} height={20.1} sizes="100vw" alt="" />
+						<Image className={styles.vectorIcon} src="/images/footer/arrow.svg" width={25} height={20.1} sizes="100vw" alt="" unoptimized />
 					</div>
 				</div>
 			</div>
